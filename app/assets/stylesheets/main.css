@@ -1,0 +1,83 @@
+a, a:link, a:visited, a:hover, a:active
+{
+    color:#193972;
+    text-decoration:underline;
+    font-family:Arial, Helvetica, Sans-Serif;
+}
+
+.m10b { margin-bottom: 10px; }
+
+div.starsDiv
+{
+	position: relative;
+    margin-left: 38px;
+    margin-top: 5px;
+    height: 13px;
+    text-align: left;
+}
+
+div.starsDiv div.backgroundStarsEmpty
+{
+	background-image:url('http://www.footsmart.com/images/stars_on_off-new.gif');
+	background-position:0px 0px;
+	width:100px;
+	height:13px;
+}
+
+div.starsDiv div.backgroundStars1,
+div.starsDiv div.backgroundStars100,
+div.starsDiv div.backgroundStars120,
+div.starsDiv div.backgroundStars140,
+div.starsDiv div.backgroundStars160,
+div.starsDiv div.backgroundStars180,
+div.starsDiv div.backgroundStars2,
+div.starsDiv div.backgroundStars200,
+div.starsDiv div.backgroundStars220,
+div.starsDiv div.backgroundStars240,
+div.starsDiv div.backgroundStars260,
+div.starsDiv div.backgroundStars280,
+div.starsDiv div.backgroundStars3,
+div.starsDiv div.backgroundStars300,
+div.starsDiv div.backgroundStars320,
+div.starsDiv div.backgroundStars340,
+div.starsDiv div.backgroundStars360,
+div.starsDiv div.backgroundStars380,
+div.starsDiv div.backgroundStars4,
+div.starsDiv div.backgroundStars400,
+div.starsDiv div.backgroundStars420,
+div.starsDiv div.backgroundStars440,
+div.starsDiv div.backgroundStars460,
+div.starsDiv div.backgroundStars480,
+div.starsDiv div.backgroundStars5,
+div.starsDiv div.backgroundStars500,
+div.starsDiv div.StarRating
+{
+	background-image:url('http://www.footsmart.com/images/stars_on_off-new.gif');
+	background-position:0px 13px;
+	position:absolute;
+	height:13px;
+	top:0px;
+	left:0px;
+}
+
+div.starsDiv div.backgroundStars1, div.starsDiv div.backgroundStars100 { width:18px; }
+div.starsDiv div.backgroundStars120 { width:21px; }
+div.starsDiv div.backgroundStars140 { width:24px; }
+div.starsDiv div.backgroundStars160 { width:27px; }
+div.starsDiv div.backgroundStars180 { width:30px; }
+div.starsDiv div.backgroundStars2, div.starsDiv div.backgroundStars200 { width:36px; }
+div.starsDiv div.backgroundStars220 { width:39px; }
+div.starsDiv div.backgroundStars240 { width:41px; }
+div.starsDiv div.backgroundStars260 { width:44px; }
+div.starsDiv div.backgroundStars280 { width:47px; }
+div.starsDiv div.backgroundStars3,  div.starsDiv div.backgroundStars300 { width:54px; }
+div.starsDiv div.backgroundStars320 { width:57px; }
+div.starsDiv div.backgroundStars340 { width:60px; }
+div.starsDiv div.backgroundStars360 { width:63px; }
+div.starsDiv div.backgroundStars380 { width:66px; }
+div.starsDiv div.backgroundStars4, div.starsDiv div.backgroundStars400 { width:72px; }
+div.starsDiv div.backgroundStars420 { width:75px; }
+div.starsDiv div.backgroundStars440 { width:78px; }
+div.starsDiv div.backgroundStars460 { width:81px; }
+div.starsDiv div.backgroundStars480 { width:84px; }
+div.starsDiv div.backgroundStars5, div.starsDiv div.backgroundStars500  { width:100px; }

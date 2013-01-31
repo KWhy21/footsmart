@@ -1,0 +1,166 @@
+/* CSS Document */
+
+div.searchResults h1 {display:inline; line-height:31px; margin-right:5px; text-transform:capitalize !important}
+
+div.container h1 {font-size:1em; line-height:31px font-size:15px; font-weight:bold; text-transform:capitalize; color:#232323 }
+
+/*mainSearchContainer*/
+#mainSearchContainer {	border: solid 1px #D8D9DB; box-sizing:border-box/9; }
+
+/*Category Banner--breadcrumb Bar */
+#categoryBanner { display:none; background:url(/Images/searchResults-banner-category-breadcrumb.png); height:54px; width:770px;  margin-bottom:7px;  }
+#categoryBanner p {color:#3c78d2; font-weight:bold; font-size:18px; line-height:31px; padding-left:220px}
+#categoryBanner p a {color:#3c78d2;}
+#categoryBanner p a:hover {text-decoration:none;}
+/*Search Results Bar */
+#searchResultsBanner { display:block; line-height:31px; width:770px;  margin-top:10px; margin-bottom:10px; overflow:hidden  }
+#searchResultsBanner .searchText { float:left; color:#698a39; font-size:21px; font-weight:bold;	padding-left:9px; position:relative; text-transform:uppercase; }
+
+/*#searchResultsBanner .bulletArrow {	background:url(/Images/searchResults-bulletArrow.gif); background-repeat:no-repeat; width:3px; height:5px;display:inline-block; position:absolute; top:13px; left:210px;}
+*/#searchResultsBanner .searchError {	color:#a50000;}
+#searchResultsBanner .searchErrorResults { font-size:12px !important; line-height:18px !important;}
+#searchResultsBanner .searchText span.errorHighlight { color:#a50000;}
+#searchResultsBanner .searchResults { float:left; font-weight:bold;	font-size:16px;	line-height:31px; background:url(/Images/searchResults-bulletArrow.gif) no-repeat 11px 12px; padding-left:20px }
+
+/*Quick Search Bar */
+#quickSearchContainer { height:36px; background:url(/Images/searchResults-quickSearch.gif) no-repeat 0 50%; padding-left:128px; border-bottom: 1px solid #D8D9DB; }
+#quickSearchContainer select { margin-top: 7px; margin-right:4px; width:150px;}
+/* Everything but IE6-8 */
+:root *> #quickSearchContainer select { margin-top: 9px; }
+
+/*Sort By Bar */
+#searchPagingContainer .sortbyBar {	 border-bottom: 1px solid #D8D9DB; border-top: 3px solid #698a39; height: 34px; background-color:#fff; }
+#searchPagingContainer .sortBar {list-style-type:none;  padding-left: 8px; font:normal 12px/30px Arial,san-serif;}
+#searchPagingContainer .sortBar li {float:left; padding: 0 5px; list-style-image:none; text-decoration:none; background:url('http://www.footsmart.com/Images/searchResult-Sortby-divider.png') no-repeat 0% 50%; }
+#searchPagingContainer .sortBar li a {color: #050505; text-decoration:none; /*padding: 0.09em 1em 0.09em 1.3em;*/ padding: 7px 4px 8px 8px; }
+
+#searchPagingContainer .sortBar li a:hover{text-decoration:underline;}
+#searchPagingContainer .sortBar a.currentPage,  #searchPagingContainer .sortBar a.currentPage:hover{ text-decoration: none; font-weight:bold; cursor:default}
+#searchPagingContainer li.firstSortBy { color:#074097; font-weight:bold; background-image:none; text-transform:uppercase}
+
+#searchPagingContainer li.firstLink { background-image:none;}
+#searchPagingContainer li.lastLink { }
+#searchPagingContainer li.last a {padding: .2em 1.2em;; border-right:none;}
+
+/*Products Per Page */
+.productsPageBar { background: url('http://www.footsmart.com/Images/searchResults-sortby-shadow.gif') repeat-x; padding-top: 5px; text-align: right; overflow:hidden; } /*height: 29px;*/
+.productsPageBar  p{line-height: 30px; font-weight: bold; margin: 0 10px 0 0; float:right; }
+
+.productsPerPage {float:left; list-style-type:none; font:bold 12px/30px Arial,san-serif;  color:#074097; margin: 6px 0 0 10px;}
+.productsPerPage li {float:left; list-style-image:none;  }
+.productsPerPage li a{text-decoration:none; padding: .2em .5em; color:#050505; font-weight:normal}
+.productsPerPage li a:hover {text-decoration:underline;}
+.productsPerPage li.currentSelection a {font-weight:bold }
+.currentPage {text-decoration: none;font-weight:bold;}
+
+/*Products Pagination */
+.pageNavigation ul.pagination, div.pageNavigation .pagination {list-style-type:none; font:normal 12px/15px Arial,san-serif;  color:#050505;}
+.pageNavigation ul.pagination li , div.pageNavigation .pagination li{float:left; list-style-image:none; text-decoration:none;}
+/*.pageNavigation ul.pagination li a:hover {text-decoration:underline;  color:050505}
+.pageNavigation ul.pagination li a.currentPageNumber:hover { text-decoration: none;	}
+.pageNavigation ul.pagination li a{ padding: .2em .5em; text-decoration:none; color:#050505}
+*/
+
+/*Original 
+.pageNavigation .next {  background:url(/Images/searchResult-nextArrow.png) no-repeat 35px 11px; padding-right:15px; font-weight:bold;}
+.pageNavigation ul.pagination li.next a { border-left: 1px solid #D8D9DB;  color:#074097}
+.pageNavigation .previous { background:url(/Images/searchResult-previousArrow.png) no-repeat 9px 11px; padding-left:15px; font-weight:bold;}
+.pageNavigation .previous a { border-right: 1px solid #D8D9DB;  color:#074097}F
+.pageNavigation .paginationEllipsis {color:#999}
+
+*/
+
+.pageNavigation ul.pagination li.next { }
+.pageNavigation ul.pagination li.next a { display:block; border:none; font-weight:bold; width:20px; height:21px; background:#fff url('http://www.footsmart.com/Images/searchResult-nextArrowBlock.png') no-repeat 0 1px; padding-right:0; margin-right:0  }
+.pageNavigation ul.pagination li.next a:hover {background-color:#fff;} 
+.pageNavigation ul.pagination li a{ display:block; padding: .1em .5em; text-decoration:none; color:#050505; background-color:#efefef; border:1px solid #d5d5d5; margin-right:5px}
+.pageNavigation ul.pagination li a:hover {text-decoration:none;  color:050505; background-color:#dcdcdc;  font-weight:bold; border-color:#b9b8b8}
+.pageNavigation ul.pagination li a.currentPageNumber { text-decoration: none;	 background-color:#e5eafe; color:#333; border-color:#999}
+.pageNavigation ul.pagination li.previous {  }
+.pageNavigation ul.pagination li.previous a {  display:block; border:none; font-weight:bold; width:20px; height:21px;  margin-right: 5px; background:#fff url('http://www.footsmart.com/Images/searchResult-previousArrowBlock.png') no-repeat 11px 1px;}
+.pageNavigation ul.pagination li.previous a:hover {background-color:#fff}
+.pageNavigation .paginationEllipsis {color:#999; margin-right:4px; position: relative; top: 5px;}
+div.bottomPageNav {border: 1px solid #D8D9DB; border-top:none;}
+
+.pageNavigation {line-height:30px; margin-right:15px; margin-top:3px; float:right;}
+.pageNavigation  a.currentPageNumber, .productsPageBar li.currentSelection a{ text-decoration: none;	font-weight:bold; cursor:default}
+
+/*Endeca Sidebar Bread Box*/
+#searchBreadCrumb .imgTitle { border-top: solid 1px #D8D9DB; border-right: solid 1px #D8D9DB;	border-left: solid 1px #D8D9DB; }
+#searchBreadCrumb .title { color: #074097; font-size: 14px;	font-weight: bold;	padding-left: 0px;	line-height: 23px;}
+#searchBreadCrumb .narrowedBy {	height: 20px; color: #698a39; font-size: 12px; font-weight: bold;  padding-left:8px; }
+
+/*style="display: inline-block; height: 20px; width: 20px;" style="width: 20px; float: right;"*/
+
+#searchBreadCrumb .narrowedByBox {border: solid 1px #D8D9DB;  margin-bottom: 10px; margin-left:1px;  line-height: 20px; background:#eaeee4 url(/Images/searchResult-breadbox-gradient.png) repeat-x  }
+#searchBreadCrumb .narrowedByBox span.breadboxItem {*float:left}
+#searchBreadCrumb .narrowedByBox ul {padding-top:7px}
+#searchBreadCrumb ul li { padding-left:8px;}
+#searchBreadCrumb .breadBoxCheckmark { background:url(/Images/searchResult-xMark.png) no-repeat 50% 100%; width:15px; height:19px; float:right; margin-right:7px; display:inline-block}
+
+#searchBreadCrumb li { font-size: 12px; list-style-type:none; line-height: 20px;  }
+
+#searchBreadCrumb .clearAll a {	font-weight: bold; color:#698a39; }
+#searchBreadCrumb .clearAll { font-size: 12px; font-weight: bold; padding-right: 5px;  text-align: right;  padding-bottom:3px; clear:both; }
+#searchBreadCrumb a { color: #074097; text-decoration:none; }
+#searchBreadCrumb a:hover {text-decoration:none; cursor: hand; }
+
+#guidedNavigation { border-left: solid 1px #D8D9DB; border-right: solid 1px #D8D9DB; border-bottom: solid 1px #D8D9DB; margin-bottom:10px}
+#guidedNavigation a {  text-decoration:none; padding: 0px 0px; color: #074097; font-size: 14px; font-weight: bold;}
+#guidedNavigation a:hover { text-decoration:underline; cursor: hand; }
+#guidedNavigation li a { margin: 0px; display: block; color:#3f3f3f; padding-top: 5px; padding-left:7px;_height:15px;  } /*You can not apply height here, will not allow refinement values to wrap to second line*/
+
+#guidedNavigation li a:hover {background-color:none; text-decoration:none;}
+#guidedNavigation li { list-style: none; white-space: normal; width: 192px; }
+#guidedNavigation ul ul.subnavlist { width:100%; margin: 0 0 5px 0;   }
+
+#guidedNavigation ul ul a {background-color:white; font-weight:normal; border-top:none; color:#050505; }
+#guidedNavigation ul ul a:hover { background-color:#eeeff1; text-decoration:none; }
+#guidedNavigation ul ul li a {background: none; padding: 3px 0 3px 7px; font-size:12px}
+#guidedNavigation li.firstEntry a{ padding-top:6px;  }
+#guidedNavigation li.lastEntry a{ padding-bottom:6px;  }
+#guidedNavigation ul ul.expanded {position:absolute; top:0px; width:100%;}
+
+#guidedNavigation ul li ul li {padding: 0; margin:0 }
+
+#guidedNavigation .more a {padding-top: 5px;}
+#guidedNavigation .more, #guidedNavigation .less {padding-left:20px; }
+#guidedNavigation .more a,  #guidedNavigation .less a  { color: #074097; background-image:none; height: 19px; font-size: 12px;	font-weight: bold;	padding-left: 0px;	margin-right:5px; margin-top:5px; text-align: left;  cursor: pointer; }
+#guidedNavigation .more a:hover, #guidedNavigation .less a:hover { text-decoration:underline; background-color: #fff; }
+
+#guidedNavigation ul#navlist { margin:0;}
+#guidedNavigation ul#navlist li a.dimension { background:url('/assets/searchResultsCatBG.png') no-repeat; height:29px; padding-top:5px;}
+#guidedNavigation ul#navlist li.collapsed div {display:none;}
+#guidedNavigation li.collapsed {background: url(/Images/searchResult-seeMoreArrow.png) no-repeat 100% 50%;  }
+
+#guidedNavigation ul#navlist li.collapsed a.dimension {cursor: pointer; background:url('/assets/searchResultsCatCollapsedBG.png')  no-repeat; height:auto; padding-right:22px; padding-bottom:3px}
+#guidedNavigation ul#navlist li.expanded  a.dimension{cursor: pointer; background:#eef2e9 url('http://www.footsmart.com/Images/searchResult-dimension-gradient-sample2.png') no-repeat 97% 50%; height:29px}
+
+
+/*Hwa's stuff */
+#guidedNavigation .narrowedMessage { border-top: solid 1px #D8D9DB;	padding: 7px 7px 7px 7px;}
+#guidedNavigation .dimValueLink { text-decoration: none; color: #2C2C2C; }
+
+.productGridRow {  position:relative; border-left: 1px solid #D8D9DB; border-right: 1px solid #D8D9DB;	
+	border-bottom: 1px solid #D8D9DB; background-image:url('/assets/searchResultsGridBG.gif'); background-repeat:repeat-y;}
+.productGridRow .productGridItem a {  font-weight:bold; font-size:12px; text-decoration:none;}
+.productGridItem { text-align:center; padding:7px 10px 30px 0px;box-sizing:border-box; float: left; }
+.productGridItem a:hover { text-decoration:underline }
+.productGridItem .productImg { margin: 0 auto; }
+.productGridItem .productTitle {}
+.productGridItem .productPrice {color: #050505; font-size: 12px; font-weight: bold; line-height: 18pt;}
+/*.productGridItem .productRating { position:relative; text-align:center;   }
+*/.productGridItem .containerRating1 {	position:absolute; bottom:10px; left:0%; }
+.productGridItem .containerRating2 {position:absolute; bottom:10px; left:25%;  }
+.productGridItem .containerRating3 {position:absolute; bottom:10px; left:50%;  }
+.productGridItem .containerRating4 {position:absolute; bottom:10px;  left:75%; }
+.productGridItem  span.productNew { color: #588225; font-weight: bold; margin-right: 2px; text-transform: uppercase;}
+.productGridItem .productStrikeOutWasPriceSmall { color: #636363; font-size:12px; text-decoration: line-through; }
+.productGridItem .productStrikeOutNowPriceSmall { color: #A50000;  font-size:12px; text-decoration:none; }
+.productGridItem .productRegularPrice { text-decoration:none; font-size: 12px; text-decoration: none; font-weight:bold; }
+
+.lastProduct { border-right: none !important; }
+.noBorderR { border-right: none; }
+
+div.TopBannerZone {margin-bottom: 10px;}
+/*div.TopBannerZone img {width: 598px;}*/
