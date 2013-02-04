@@ -7,6 +7,15 @@ a, a:link, a:visited, a:hover, a:active
 
 .m10b { margin-bottom: 10px; }
 
+
+#topLinks {
+text-align: right;
+color: #BBB;
+padding: 10px 0;
+word-spacing: 4px;
+margin: 0;
+}
+
 div.starsDiv
 {
 	position: relative;

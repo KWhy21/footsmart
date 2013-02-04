@@ -33,9 +33,57 @@
     </div>
 
 <div class="container">
+	<div class="clearfix row span12">		
+		<div id="topLinks">
+			<a href="http://www.footsmart.com/Default.aspx" onclick="fsCoremetricsOld.ElementTagWithAttributes('Home','Top Nav','Top Nav','Logo And Links');" id="homelink">Home</a> 
+			| <a href="http://www.footsmart.com/CatalogRequest.aspx" onclick="fsCoremetricsOld.ElementTagWithAttributes('Catalog Request','Top Nav','Top Nav','Logo And Links');">Catalog Request</a> 
+			| <a href="http://www.footsmart.com/Page.aspx?PageId=1045" onclick="fsCoremetricsOld.ElementTagWithAttributes('Online Catalog','Top Nav','Top Nav','Logo And Links');">Online Catalog</a> 
+			| <a href="http://www.footsmart.com/newslettersignup.aspx" onclick="fsCoremetricsOld.ElementTagWithAttributes('Email','Top Nav','Top Nav','Logo And Links');">Email Sign-Up</a> 
+			| <span>1 (800) 707-9928</span>
+			| <a href="http://www.footsmart.com/AccountHome.aspx" onclick="fsCoremetricsOld.ElementTagWithAttributes('Account','Top Nav','Top Nav','Account');">My Account</a> 
+			| <a href="http://www.footsmart.com/Login.aspx?ReturnUrl=%2fAccountHome.aspx" onclick="fsCoremetricsOld.ElementTagWithAttributes('Account','Top Nav','Top Nav','Account');" id="A1">Account Sign-In</a>
+		</div>
+		
+		<div class="topnav logohead">
+			<div class="topNavLeft">
+				<span id="logoFootSmart" style="display:none"><a class="fs" href="http://www.footsmart.com/Default.aspx" onclick="fsCoremetricsOld.ElementTagWithAttributes('Logo','Top Nav','Top Nav','Logo And Links');" title="FootSmart :: Comfortable Walking Shoes &amp; Foot Pain Products for Heel Pain, Back Support &amp; Foot Problems :: Comfort Footwear"></a></span>
+				<span id="logoComfortology" style="display:none"><a class="ct" href="http://www.footsmart.com/Comfortology/Default.aspx" onclick="fsCoremetricsOld.ElementTagWithAttributes('Logo','Top Nav','Top Nav','Logo And Links');" title="Comfortology :: Really great shoes... surprisingly comfortable!"></a></span>
+				<span id="logoCobranded" style="display:inline"><a class="cobrandfs" href="http://www.footsmart.com/Default.aspx" onclick="fsCoremetricsOld.ElementTagWithAttributes('Logo','Top Nav','Top Nav','Logo And Links');" title="FootSmart :: Comfortable Walking Shoes &amp; Foot Pain Products for Heel Pain, Back Support &amp; Foot Problems :: Comfort Footwear"></a><span class="space"></span><a class="cobrandct" href="/Comfortology/Default.aspx" title="Comfortology :: Really great shoes... surprisingly comfortable!"></a></span>
+			</div>
+			<div class="topNavRight">
+				<span class="fscart"></span><span class="ctcart"></span><a id="cartLink" href="http://www.footsmart.com/ShoppingCart.aspx" onclick="fsCoremetricsOld.ElementTagWithAttributes('Shopping Cart','Top Nav','Top Nav','Account');" class="topnavlink">Shopping Cart <span class="cartCountText">(</span><span id="cartCountText" class="cartCountText">0 items</span><span class="cartCountText">)</span></a>
+				<div id="globalCartPromoText" style="display:none;"></div>
+				
+					<table id="searchBar" border="0" cellspacing="0" cellpadding="0">
+					<tbody><tr>
+						<td id="searchAreaCell">
+							<div id="oldMenu">
+								<input name="ctl00$SiteHeaderControl$tbNavSearch" type="text" value="Enter keyword or item #" maxlength="200" id="ctl00_SiteHeaderControl_tbNavSearch" class="toggletext tbNavSearch" toggletext="Enter keyword or item #">
+								<a id="searchLinkButton" href="javascript:fsTypeAheadMenu.search('http://www.footsmart.com/SearchReturns.aspx');" class="searchbutton sprite">
+									<span class="alt">Search Products</span>
+								</a>
+							<div id="typeAheadContainer" class="typeahead" style="display:none;"><ul class="autosuggest"></ul></div></div>
+						</td>
+					</tr>
+					</tbody></table>				
+			</div>
+		</div>			
+	</div>
+	<div id="banner" class="row">		
+		<div class="span12">
+			<div class="mboxDefault" style="visibility: visible; display: block;">
+				<a id="ctl00_Banner_bannerLink" href="http://www.footsmart.com/clearance-s?NavCmd=N:4294967150-4294967138&amp;cm_sp=RHU-_-Utility-_-Clearance012113" style="display:inline-block;border-width:0px;"><img src="http://www.footsmart.com/Images/Images/BANNER_634924960530662058.gif" alt="Save up to 50%" style="border-width:0px;width:940px"></a>
+			</div>
+			<script type="text/javascript">
+				if (typeof (mboxCreate) != 'undefined') {
+					mboxCreate('fsGlobalSkinnyBanner');
+				}
+			</script><div id="mboxMarker-default-fsGlobalSkinnyBanner-0" style="visibility:hidden;display:none">&nbsp;</div><script src="http://benchmarkbrandsinc.tt.omtrdc.net/m2/benchmarkbrandsinc/mbox/standard?mboxHost=www.footsmart.com&amp;mboxSession=1359996421706-203352&amp;mboxPC=1359579584084-366301.17_29&amp;mboxPage=1359997980540-168262&amp;screenHeight=1080&amp;screenWidth=1920&amp;browserWidth=1830&amp;browserHeight=995&amp;browserTimeOffset=-300&amp;colorDepth=32&amp;mboxCount=2&amp;mbox=fsGlobalSkinnyBanner&amp;mboxId=0&amp;mboxTime=1359979980629&amp;mboxURL=http%3A%2F%2Fwww.footsmart.com%2Fclarks-s.aspx%3Fsearchterm%3Dclarks%26cm%3Dsb&amp;mboxReferrer=http%3A%2F%2Fwww.footsmart.com%2F&amp;mboxVersion=41" language="JavaScript"></script>
+		</div>
+	</div>
 	<div class="row">
 		<div class="span12">
-			<div class="span-154 m5b">
+			<div class="m5b">
 				<div id="ctl00_MainContentPlaceHolder_ctl00_ctl01_panelSearchAdjustments">
 					<div id="searchResultsBanner">
 						<div class="searchText">Search Results<span class="bulletArrow"></span></div>
@@ -907,6 +955,441 @@
 							</div>        
 						</div>
 						
+						<div class="productGridRow clearfix span9"> 
+							<div class="span9div4 productGridItem">               
+								<div class="productImg">
+									<a id="ctl00_MainContentPlaceHolder_ctl00_ctl05_ProductGridListView_ctrl0_ctl00_ProductGridItem_ctl00" title="Clarks Bendables Women's Ashland Rivers Fisherman Shoes - 79922" href="http://www.footsmart.com/P-Clarks-Bendables-Womens-Ashland-Rivers-Fisherman-Shoes-79922.aspx"><img title="Clarks Bendables Women's Ashland Rivers Fisherman Shoes - 79922" src="http://s7ondemand1.scene7.com/is/image/BenchmarkBrands/79922_TAN?$135X135$" style="border-width:0px;"></a>
+								</div>
+								<div class="productTitle">
+									<span class="productNew">new</span>
+									<a id="ctl00_MainContentPlaceHolder_ctl00_ctl05_ProductGridListView_ctrl0_ctl00_ProductGridItem_ctl01" title="Clarks Bendables Women's Ashland Rivers Fisherman Shoes - 79922" href="http://www.footsmart.com/P-Clarks-Bendables-Womens-Ashland-Rivers-Fisherman-Shoes-79922.aspx">Clarks Bendables Women's Ashland Rivers Fisherman Shoes</a>
+								</div>
+								<div class="productPrice">
+									<span id="ctl00_MainContentPlaceHolder_ctl00_ctl05_ProductGridListView_ctrl0_ctl00_ProductGridItem_ctl02" class="productStrikeOutWasPriceSmall"></span><span id="ctl00_MainContentPlaceHolder_ctl00_ctl05_ProductGridListView_ctrl0_ctl00_ProductGridItem_ctl03" class="productRegularPrice"> $75.99</span>
+								</div>    
+								<div class="containerRating1"></div>
+							</div>        
+							<div class="span9div4 productGridItem">           				
+								<div class="productImg">
+									<a id="ctl00_MainContentPlaceHolder_ctl00_ctl05_ProductGridListView_ctrl0_ctl01_ProductGridItem_ctl00" title="Clarks Privo Women's Haley Falcon Lace-Up Shoes - 76349" href="http://www.footsmart.com/P-Clarks-Privo-Womens-Haley-Falcon-Lace-Up-Shoes-76349.aspx"><img title="Clarks Privo Women's Haley Falcon Lace-Up Shoes - 76349" src="http://s7ondemand1.scene7.com/is/image/BenchmarkBrands/76349_GREY_SUEDE?$135X135$" style="border-width:0px;"></a>
+								</div>
+								<div class="productTitle">						
+									<a id="ctl00_MainContentPlaceHolder_ctl00_ctl05_ProductGridListView_ctrl0_ctl01_ProductGridItem_ctl01" title="Clarks Privo Women's Haley Falcon Lace-Up Shoes - 76349" href="http://www.footsmart.com/P-Clarks-Privo-Womens-Haley-Falcon-Lace-Up-Shoes-76349.aspx">Clarks Privo Women's Haley Falcon Lace-Up Shoes</a>
+								</div>
+								<div class="productPrice">
+									<span id="ctl00_MainContentPlaceHolder_ctl00_ctl05_ProductGridListView_ctrl0_ctl01_ProductGridItem_ctl02" class="productStrikeOutWasPriceSmall"></span><span id="ctl00_MainContentPlaceHolder_ctl00_ctl05_ProductGridListView_ctrl0_ctl01_ProductGridItem_ctl03" class="productRegularPrice"> $79.99</span>
+								</div>    
+								<div class="containerRating2">        
+									<div class="starsDiv clearfix">
+										<div class="backgroundStarsEmpty"></div>
+										<div class="StarRating" style="width:80%;"></div>
+									</div>        
+								</div>				
+							</div>        
+							<div class="span9div4 productGridItem">               				
+								<div class="productImg">
+									<a id="ctl00_MainContentPlaceHolder_ctl00_ctl05_ProductGridListView_ctrl0_ctl02_ProductGridItem_ctl00" title="Clarks Privo Women's Haley Stork Slip-On Shoes - 79923" href="http://www.footsmart.com/P-Clarks-Privo-Womens-Haley-Stork-Slip-On-Shoes-79923.aspx"><img title="Clarks Privo Women's Haley Stork Slip-On Shoes - 79923" src="http://s7ondemand1.scene7.com/is/image/BenchmarkBrands/79923_BEIGE?$135X135$" style="border-width:0px;"></a>
+								</div>
+								<div class="productTitle">
+									<span class="productNew">new</span>
+									<a id="ctl00_MainContentPlaceHolder_ctl00_ctl05_ProductGridListView_ctrl0_ctl02_ProductGridItem_ctl01" title="Clarks Privo Women's Haley Stork Slip-On Shoes - 79923" href="http://www.footsmart.com/P-Clarks-Privo-Womens-Haley-Stork-Slip-On-Shoes-79923.aspx">Clarks Privo Women's Haley Stork Slip-On Shoes</a>
+								</div>
+								<div class="productPrice">
+									<span id="ctl00_MainContentPlaceHolder_ctl00_ctl05_ProductGridListView_ctrl0_ctl02_ProductGridItem_ctl02" class="productStrikeOutWasPriceSmall"></span><span id="ctl00_MainContentPlaceHolder_ctl00_ctl05_ProductGridListView_ctrl0_ctl02_ProductGridItem_ctl03" class="productRegularPrice"> $75.99</span>
+								</div>					
+								<div class="containerRating3"></div>				
+							</div>        
+							<div class="span9div4 productGridItem">            				
+								<div class="productImg">
+									<a id="ctl00_MainContentPlaceHolder_ctl00_ctl05_ProductGridListView_ctrl0_ctl03_ProductGridItem_ctl00" title="Clarks Bendables Women's Lexi Bark Slide Sandals - 86314" href="http://www.footsmart.com/P-Clarks-Bendables-Womens-Lexi-Bark-Slide-Sandals-86314.aspx"><img title="Clarks Bendables Women's Lexi Bark Slide Sandals - 86314" src="http://s7ondemand1.scene7.com/is/image/BenchmarkBrands/86314_SAND?$135X135$" style="border-width:0px;"></a>
+								</div>
+								<div class="productTitle">					
+									<a id="ctl00_MainContentPlaceHolder_ctl00_ctl05_ProductGridListView_ctrl0_ctl03_ProductGridItem_ctl01" title="Clarks Bendables Women's Lexi Bark Slide Sandals - 86314" href="http://www.footsmart.com/P-Clarks-Bendables-Womens-Lexi-Bark-Slide-Sandals-86314.aspx">Clarks Bendables Women's Lexi Bark Slide Sandals</a>
+								</div>
+								<div class="productPrice">
+									<span id="ctl00_MainContentPlaceHolder_ctl00_ctl05_ProductGridListView_ctrl0_ctl03_ProductGridItem_ctl02" class="productStrikeOutWasPriceSmall"></span><span id="ctl00_MainContentPlaceHolder_ctl00_ctl05_ProductGridListView_ctrl0_ctl03_ProductGridItem_ctl03" class="productRegularPrice"> $75.99</span>
+								</div>					
+								<div class="containerRating4">        
+									<div class="starsDiv clearfix">
+										<div class="backgroundStarsEmpty"></div>
+										<div class="StarRating" style="width:90%;"></div>
+									</div>       
+								</div>				
+							</div>        
+						</div>
+						
+						<div class="productGridRow clearfix span9"> 
+							<div class="span9div4 productGridItem">               
+								<div class="productImg">
+									<a id="ctl00_MainContentPlaceHolder_ctl00_ctl05_ProductGridListView_ctrl0_ctl00_ProductGridItem_ctl00" title="Clarks Bendables Women's Ashland Rivers Fisherman Shoes - 79922" href="http://www.footsmart.com/P-Clarks-Bendables-Womens-Ashland-Rivers-Fisherman-Shoes-79922.aspx"><img title="Clarks Bendables Women's Ashland Rivers Fisherman Shoes - 79922" src="http://s7ondemand1.scene7.com/is/image/BenchmarkBrands/79922_TAN?$135X135$" style="border-width:0px;"></a>
+								</div>
+								<div class="productTitle">
+									<span class="productNew">new</span>
+									<a id="ctl00_MainContentPlaceHolder_ctl00_ctl05_ProductGridListView_ctrl0_ctl00_ProductGridItem_ctl01" title="Clarks Bendables Women's Ashland Rivers Fisherman Shoes - 79922" href="http://www.footsmart.com/P-Clarks-Bendables-Womens-Ashland-Rivers-Fisherman-Shoes-79922.aspx">Clarks Bendables Women's Ashland Rivers Fisherman Shoes</a>
+								</div>
+								<div class="productPrice">
+									<span id="ctl00_MainContentPlaceHolder_ctl00_ctl05_ProductGridListView_ctrl0_ctl00_ProductGridItem_ctl02" class="productStrikeOutWasPriceSmall"></span><span id="ctl00_MainContentPlaceHolder_ctl00_ctl05_ProductGridListView_ctrl0_ctl00_ProductGridItem_ctl03" class="productRegularPrice"> $75.99</span>
+								</div>    
+								<div class="containerRating1"></div>
+							</div>        
+							<div class="span9div4 productGridItem">           				
+								<div class="productImg">
+									<a id="ctl00_MainContentPlaceHolder_ctl00_ctl05_ProductGridListView_ctrl0_ctl01_ProductGridItem_ctl00" title="Clarks Privo Women's Haley Falcon Lace-Up Shoes - 76349" href="http://www.footsmart.com/P-Clarks-Privo-Womens-Haley-Falcon-Lace-Up-Shoes-76349.aspx"><img title="Clarks Privo Women's Haley Falcon Lace-Up Shoes - 76349" src="http://s7ondemand1.scene7.com/is/image/BenchmarkBrands/76349_GREY_SUEDE?$135X135$" style="border-width:0px;"></a>
+								</div>
+								<div class="productTitle">						
+									<a id="ctl00_MainContentPlaceHolder_ctl00_ctl05_ProductGridListView_ctrl0_ctl01_ProductGridItem_ctl01" title="Clarks Privo Women's Haley Falcon Lace-Up Shoes - 76349" href="http://www.footsmart.com/P-Clarks-Privo-Womens-Haley-Falcon-Lace-Up-Shoes-76349.aspx">Clarks Privo Women's Haley Falcon Lace-Up Shoes</a>
+								</div>
+								<div class="productPrice">
+									<span id="ctl00_MainContentPlaceHolder_ctl00_ctl05_ProductGridListView_ctrl0_ctl01_ProductGridItem_ctl02" class="productStrikeOutWasPriceSmall"></span><span id="ctl00_MainContentPlaceHolder_ctl00_ctl05_ProductGridListView_ctrl0_ctl01_ProductGridItem_ctl03" class="productRegularPrice"> $79.99</span>
+								</div>    
+								<div class="containerRating2">        
+									<div class="starsDiv clearfix">
+										<div class="backgroundStarsEmpty"></div>
+										<div class="StarRating" style="width:80%;"></div>
+									</div>        
+								</div>				
+							</div>        
+							<div class="span9div4 productGridItem">               				
+								<div class="productImg">
+									<a id="ctl00_MainContentPlaceHolder_ctl00_ctl05_ProductGridListView_ctrl0_ctl02_ProductGridItem_ctl00" title="Clarks Privo Women's Haley Stork Slip-On Shoes - 79923" href="http://www.footsmart.com/P-Clarks-Privo-Womens-Haley-Stork-Slip-On-Shoes-79923.aspx"><img title="Clarks Privo Women's Haley Stork Slip-On Shoes - 79923" src="http://s7ondemand1.scene7.com/is/image/BenchmarkBrands/79923_BEIGE?$135X135$" style="border-width:0px;"></a>
+								</div>
+								<div class="productTitle">
+									<span class="productNew">new</span>
+									<a id="ctl00_MainContentPlaceHolder_ctl00_ctl05_ProductGridListView_ctrl0_ctl02_ProductGridItem_ctl01" title="Clarks Privo Women's Haley Stork Slip-On Shoes - 79923" href="http://www.footsmart.com/P-Clarks-Privo-Womens-Haley-Stork-Slip-On-Shoes-79923.aspx">Clarks Privo Women's Haley Stork Slip-On Shoes</a>
+								</div>
+								<div class="productPrice">
+									<span id="ctl00_MainContentPlaceHolder_ctl00_ctl05_ProductGridListView_ctrl0_ctl02_ProductGridItem_ctl02" class="productStrikeOutWasPriceSmall"></span><span id="ctl00_MainContentPlaceHolder_ctl00_ctl05_ProductGridListView_ctrl0_ctl02_ProductGridItem_ctl03" class="productRegularPrice"> $75.99</span>
+								</div>					
+								<div class="containerRating3"></div>				
+							</div>        
+							<div class="span9div4 productGridItem">            				
+								<div class="productImg">
+									<a id="ctl00_MainContentPlaceHolder_ctl00_ctl05_ProductGridListView_ctrl0_ctl03_ProductGridItem_ctl00" title="Clarks Bendables Women's Lexi Bark Slide Sandals - 86314" href="http://www.footsmart.com/P-Clarks-Bendables-Womens-Lexi-Bark-Slide-Sandals-86314.aspx"><img title="Clarks Bendables Women's Lexi Bark Slide Sandals - 86314" src="http://s7ondemand1.scene7.com/is/image/BenchmarkBrands/86314_SAND?$135X135$" style="border-width:0px;"></a>
+								</div>
+								<div class="productTitle">					
+									<a id="ctl00_MainContentPlaceHolder_ctl00_ctl05_ProductGridListView_ctrl0_ctl03_ProductGridItem_ctl01" title="Clarks Bendables Women's Lexi Bark Slide Sandals - 86314" href="http://www.footsmart.com/P-Clarks-Bendables-Womens-Lexi-Bark-Slide-Sandals-86314.aspx">Clarks Bendables Women's Lexi Bark Slide Sandals</a>
+								</div>
+								<div class="productPrice">
+									<span id="ctl00_MainContentPlaceHolder_ctl00_ctl05_ProductGridListView_ctrl0_ctl03_ProductGridItem_ctl02" class="productStrikeOutWasPriceSmall"></span><span id="ctl00_MainContentPlaceHolder_ctl00_ctl05_ProductGridListView_ctrl0_ctl03_ProductGridItem_ctl03" class="productRegularPrice"> $75.99</span>
+								</div>					
+								<div class="containerRating4">        
+									<div class="starsDiv clearfix">
+										<div class="backgroundStarsEmpty"></div>
+										<div class="StarRating" style="width:90%;"></div>
+									</div>       
+								</div>				
+							</div>        
+						</div>
+						<div class="productGridRow clearfix span9"> 
+							<div class="span9div4 productGridItem">               
+								<div class="productImg">
+									<a id="ctl00_MainContentPlaceHolder_ctl00_ctl05_ProductGridListView_ctrl0_ctl00_ProductGridItem_ctl00" title="Clarks Bendables Women's Ashland Rivers Fisherman Shoes - 79922" href="http://www.footsmart.com/P-Clarks-Bendables-Womens-Ashland-Rivers-Fisherman-Shoes-79922.aspx"><img title="Clarks Bendables Women's Ashland Rivers Fisherman Shoes - 79922" src="http://s7ondemand1.scene7.com/is/image/BenchmarkBrands/79922_TAN?$135X135$" style="border-width:0px;"></a>
+								</div>
+								<div class="productTitle">
+									<span class="productNew">new</span>
+									<a id="ctl00_MainContentPlaceHolder_ctl00_ctl05_ProductGridListView_ctrl0_ctl00_ProductGridItem_ctl01" title="Clarks Bendables Women's Ashland Rivers Fisherman Shoes - 79922" href="http://www.footsmart.com/P-Clarks-Bendables-Womens-Ashland-Rivers-Fisherman-Shoes-79922.aspx">Clarks Bendables Women's Ashland Rivers Fisherman Shoes</a>
+								</div>
+								<div class="productPrice">
+									<span id="ctl00_MainContentPlaceHolder_ctl00_ctl05_ProductGridListView_ctrl0_ctl00_ProductGridItem_ctl02" class="productStrikeOutWasPriceSmall"></span><span id="ctl00_MainContentPlaceHolder_ctl00_ctl05_ProductGridListView_ctrl0_ctl00_ProductGridItem_ctl03" class="productRegularPrice"> $75.99</span>
+								</div>    
+								<div class="containerRating1"></div>
+							</div>        
+							<div class="span9div4 productGridItem">           				
+								<div class="productImg">
+									<a id="ctl00_MainContentPlaceHolder_ctl00_ctl05_ProductGridListView_ctrl0_ctl01_ProductGridItem_ctl00" title="Clarks Privo Women's Haley Falcon Lace-Up Shoes - 76349" href="http://www.footsmart.com/P-Clarks-Privo-Womens-Haley-Falcon-Lace-Up-Shoes-76349.aspx"><img title="Clarks Privo Women's Haley Falcon Lace-Up Shoes - 76349" src="http://s7ondemand1.scene7.com/is/image/BenchmarkBrands/76349_GREY_SUEDE?$135X135$" style="border-width:0px;"></a>
+								</div>
+								<div class="productTitle">						
+									<a id="ctl00_MainContentPlaceHolder_ctl00_ctl05_ProductGridListView_ctrl0_ctl01_ProductGridItem_ctl01" title="Clarks Privo Women's Haley Falcon Lace-Up Shoes - 76349" href="http://www.footsmart.com/P-Clarks-Privo-Womens-Haley-Falcon-Lace-Up-Shoes-76349.aspx">Clarks Privo Women's Haley Falcon Lace-Up Shoes</a>
+								</div>
+								<div class="productPrice">
+									<span id="ctl00_MainContentPlaceHolder_ctl00_ctl05_ProductGridListView_ctrl0_ctl01_ProductGridItem_ctl02" class="productStrikeOutWasPriceSmall"></span><span id="ctl00_MainContentPlaceHolder_ctl00_ctl05_ProductGridListView_ctrl0_ctl01_ProductGridItem_ctl03" class="productRegularPrice"> $79.99</span>
+								</div>    
+								<div class="containerRating2">        
+									<div class="starsDiv clearfix">
+										<div class="backgroundStarsEmpty"></div>
+										<div class="StarRating" style="width:80%;"></div>
+									</div>        
+								</div>				
+							</div>        
+							<div class="span9div4 productGridItem">               				
+								<div class="productImg">
+									<a id="ctl00_MainContentPlaceHolder_ctl00_ctl05_ProductGridListView_ctrl0_ctl02_ProductGridItem_ctl00" title="Clarks Privo Women's Haley Stork Slip-On Shoes - 79923" href="http://www.footsmart.com/P-Clarks-Privo-Womens-Haley-Stork-Slip-On-Shoes-79923.aspx"><img title="Clarks Privo Women's Haley Stork Slip-On Shoes - 79923" src="http://s7ondemand1.scene7.com/is/image/BenchmarkBrands/79923_BEIGE?$135X135$" style="border-width:0px;"></a>
+								</div>
+								<div class="productTitle">
+									<span class="productNew">new</span>
+									<a id="ctl00_MainContentPlaceHolder_ctl00_ctl05_ProductGridListView_ctrl0_ctl02_ProductGridItem_ctl01" title="Clarks Privo Women's Haley Stork Slip-On Shoes - 79923" href="http://www.footsmart.com/P-Clarks-Privo-Womens-Haley-Stork-Slip-On-Shoes-79923.aspx">Clarks Privo Women's Haley Stork Slip-On Shoes</a>
+								</div>
+								<div class="productPrice">
+									<span id="ctl00_MainContentPlaceHolder_ctl00_ctl05_ProductGridListView_ctrl0_ctl02_ProductGridItem_ctl02" class="productStrikeOutWasPriceSmall"></span><span id="ctl00_MainContentPlaceHolder_ctl00_ctl05_ProductGridListView_ctrl0_ctl02_ProductGridItem_ctl03" class="productRegularPrice"> $75.99</span>
+								</div>					
+								<div class="containerRating3"></div>				
+							</div>        
+							<div class="span9div4 productGridItem">            				
+								<div class="productImg">
+									<a id="ctl00_MainContentPlaceHolder_ctl00_ctl05_ProductGridListView_ctrl0_ctl03_ProductGridItem_ctl00" title="Clarks Bendables Women's Lexi Bark Slide Sandals - 86314" href="http://www.footsmart.com/P-Clarks-Bendables-Womens-Lexi-Bark-Slide-Sandals-86314.aspx"><img title="Clarks Bendables Women's Lexi Bark Slide Sandals - 86314" src="http://s7ondemand1.scene7.com/is/image/BenchmarkBrands/86314_SAND?$135X135$" style="border-width:0px;"></a>
+								</div>
+								<div class="productTitle">					
+									<a id="ctl00_MainContentPlaceHolder_ctl00_ctl05_ProductGridListView_ctrl0_ctl03_ProductGridItem_ctl01" title="Clarks Bendables Women's Lexi Bark Slide Sandals - 86314" href="http://www.footsmart.com/P-Clarks-Bendables-Womens-Lexi-Bark-Slide-Sandals-86314.aspx">Clarks Bendables Women's Lexi Bark Slide Sandals</a>
+								</div>
+								<div class="productPrice">
+									<span id="ctl00_MainContentPlaceHolder_ctl00_ctl05_ProductGridListView_ctrl0_ctl03_ProductGridItem_ctl02" class="productStrikeOutWasPriceSmall"></span><span id="ctl00_MainContentPlaceHolder_ctl00_ctl05_ProductGridListView_ctrl0_ctl03_ProductGridItem_ctl03" class="productRegularPrice"> $75.99</span>
+								</div>					
+								<div class="containerRating4">        
+									<div class="starsDiv clearfix">
+										<div class="backgroundStarsEmpty"></div>
+										<div class="StarRating" style="width:90%;"></div>
+									</div>       
+								</div>				
+							</div>        
+						</div>
+						<div class="productGridRow clearfix span9"> 
+							<div class="span9div4 productGridItem">               
+								<div class="productImg">
+									<a id="ctl00_MainContentPlaceHolder_ctl00_ctl05_ProductGridListView_ctrl0_ctl00_ProductGridItem_ctl00" title="Clarks Bendables Women's Ashland Rivers Fisherman Shoes - 79922" href="http://www.footsmart.com/P-Clarks-Bendables-Womens-Ashland-Rivers-Fisherman-Shoes-79922.aspx"><img title="Clarks Bendables Women's Ashland Rivers Fisherman Shoes - 79922" src="http://s7ondemand1.scene7.com/is/image/BenchmarkBrands/79922_TAN?$135X135$" style="border-width:0px;"></a>
+								</div>
+								<div class="productTitle">
+									<span class="productNew">new</span>
+									<a id="ctl00_MainContentPlaceHolder_ctl00_ctl05_ProductGridListView_ctrl0_ctl00_ProductGridItem_ctl01" title="Clarks Bendables Women's Ashland Rivers Fisherman Shoes - 79922" href="http://www.footsmart.com/P-Clarks-Bendables-Womens-Ashland-Rivers-Fisherman-Shoes-79922.aspx">Clarks Bendables Women's Ashland Rivers Fisherman Shoes</a>
+								</div>
+								<div class="productPrice">
+									<span id="ctl00_MainContentPlaceHolder_ctl00_ctl05_ProductGridListView_ctrl0_ctl00_ProductGridItem_ctl02" class="productStrikeOutWasPriceSmall"></span><span id="ctl00_MainContentPlaceHolder_ctl00_ctl05_ProductGridListView_ctrl0_ctl00_ProductGridItem_ctl03" class="productRegularPrice"> $75.99</span>
+								</div>    
+								<div class="containerRating1"></div>
+							</div>        
+							<div class="span9div4 productGridItem">           				
+								<div class="productImg">
+									<a id="ctl00_MainContentPlaceHolder_ctl00_ctl05_ProductGridListView_ctrl0_ctl01_ProductGridItem_ctl00" title="Clarks Privo Women's Haley Falcon Lace-Up Shoes - 76349" href="http://www.footsmart.com/P-Clarks-Privo-Womens-Haley-Falcon-Lace-Up-Shoes-76349.aspx"><img title="Clarks Privo Women's Haley Falcon Lace-Up Shoes - 76349" src="http://s7ondemand1.scene7.com/is/image/BenchmarkBrands/76349_GREY_SUEDE?$135X135$" style="border-width:0px;"></a>
+								</div>
+								<div class="productTitle">						
+									<a id="ctl00_MainContentPlaceHolder_ctl00_ctl05_ProductGridListView_ctrl0_ctl01_ProductGridItem_ctl01" title="Clarks Privo Women's Haley Falcon Lace-Up Shoes - 76349" href="http://www.footsmart.com/P-Clarks-Privo-Womens-Haley-Falcon-Lace-Up-Shoes-76349.aspx">Clarks Privo Women's Haley Falcon Lace-Up Shoes</a>
+								</div>
+								<div class="productPrice">
+									<span id="ctl00_MainContentPlaceHolder_ctl00_ctl05_ProductGridListView_ctrl0_ctl01_ProductGridItem_ctl02" class="productStrikeOutWasPriceSmall"></span><span id="ctl00_MainContentPlaceHolder_ctl00_ctl05_ProductGridListView_ctrl0_ctl01_ProductGridItem_ctl03" class="productRegularPrice"> $79.99</span>
+								</div>    
+								<div class="containerRating2">        
+									<div class="starsDiv clearfix">
+										<div class="backgroundStarsEmpty"></div>
+										<div class="StarRating" style="width:80%;"></div>
+									</div>        
+								</div>				
+							</div>        
+							<div class="span9div4 productGridItem">               				
+								<div class="productImg">
+									<a id="ctl00_MainContentPlaceHolder_ctl00_ctl05_ProductGridListView_ctrl0_ctl02_ProductGridItem_ctl00" title="Clarks Privo Women's Haley Stork Slip-On Shoes - 79923" href="http://www.footsmart.com/P-Clarks-Privo-Womens-Haley-Stork-Slip-On-Shoes-79923.aspx"><img title="Clarks Privo Women's Haley Stork Slip-On Shoes - 79923" src="http://s7ondemand1.scene7.com/is/image/BenchmarkBrands/79923_BEIGE?$135X135$" style="border-width:0px;"></a>
+								</div>
+								<div class="productTitle">
+									<span class="productNew">new</span>
+									<a id="ctl00_MainContentPlaceHolder_ctl00_ctl05_ProductGridListView_ctrl0_ctl02_ProductGridItem_ctl01" title="Clarks Privo Women's Haley Stork Slip-On Shoes - 79923" href="http://www.footsmart.com/P-Clarks-Privo-Womens-Haley-Stork-Slip-On-Shoes-79923.aspx">Clarks Privo Women's Haley Stork Slip-On Shoes</a>
+								</div>
+								<div class="productPrice">
+									<span id="ctl00_MainContentPlaceHolder_ctl00_ctl05_ProductGridListView_ctrl0_ctl02_ProductGridItem_ctl02" class="productStrikeOutWasPriceSmall"></span><span id="ctl00_MainContentPlaceHolder_ctl00_ctl05_ProductGridListView_ctrl0_ctl02_ProductGridItem_ctl03" class="productRegularPrice"> $75.99</span>
+								</div>					
+								<div class="containerRating3"></div>				
+							</div>        
+							<div class="span9div4 productGridItem">            				
+								<div class="productImg">
+									<a id="ctl00_MainContentPlaceHolder_ctl00_ctl05_ProductGridListView_ctrl0_ctl03_ProductGridItem_ctl00" title="Clarks Bendables Women's Lexi Bark Slide Sandals - 86314" href="http://www.footsmart.com/P-Clarks-Bendables-Womens-Lexi-Bark-Slide-Sandals-86314.aspx"><img title="Clarks Bendables Women's Lexi Bark Slide Sandals - 86314" src="http://s7ondemand1.scene7.com/is/image/BenchmarkBrands/86314_SAND?$135X135$" style="border-width:0px;"></a>
+								</div>
+								<div class="productTitle">					
+									<a id="ctl00_MainContentPlaceHolder_ctl00_ctl05_ProductGridListView_ctrl0_ctl03_ProductGridItem_ctl01" title="Clarks Bendables Women's Lexi Bark Slide Sandals - 86314" href="http://www.footsmart.com/P-Clarks-Bendables-Womens-Lexi-Bark-Slide-Sandals-86314.aspx">Clarks Bendables Women's Lexi Bark Slide Sandals</a>
+								</div>
+								<div class="productPrice">
+									<span id="ctl00_MainContentPlaceHolder_ctl00_ctl05_ProductGridListView_ctrl0_ctl03_ProductGridItem_ctl02" class="productStrikeOutWasPriceSmall"></span><span id="ctl00_MainContentPlaceHolder_ctl00_ctl05_ProductGridListView_ctrl0_ctl03_ProductGridItem_ctl03" class="productRegularPrice"> $75.99</span>
+								</div>					
+								<div class="containerRating4">        
+									<div class="starsDiv clearfix">
+										<div class="backgroundStarsEmpty"></div>
+										<div class="StarRating" style="width:90%;"></div>
+									</div>       
+								</div>				
+							</div>        
+						</div>
+						<div class="productGridRow clearfix span9"> 
+							<div class="span9div4 productGridItem">               
+								<div class="productImg">
+									<a id="ctl00_MainContentPlaceHolder_ctl00_ctl05_ProductGridListView_ctrl0_ctl00_ProductGridItem_ctl00" title="Clarks Bendables Women's Ashland Rivers Fisherman Shoes - 79922" href="http://www.footsmart.com/P-Clarks-Bendables-Womens-Ashland-Rivers-Fisherman-Shoes-79922.aspx"><img title="Clarks Bendables Women's Ashland Rivers Fisherman Shoes - 79922" src="http://s7ondemand1.scene7.com/is/image/BenchmarkBrands/79922_TAN?$135X135$" style="border-width:0px;"></a>
+								</div>
+								<div class="productTitle">
+									<span class="productNew">new</span>
+									<a id="ctl00_MainContentPlaceHolder_ctl00_ctl05_ProductGridListView_ctrl0_ctl00_ProductGridItem_ctl01" title="Clarks Bendables Women's Ashland Rivers Fisherman Shoes - 79922" href="http://www.footsmart.com/P-Clarks-Bendables-Womens-Ashland-Rivers-Fisherman-Shoes-79922.aspx">Clarks Bendables Women's Ashland Rivers Fisherman Shoes</a>
+								</div>
+								<div class="productPrice">
+									<span id="ctl00_MainContentPlaceHolder_ctl00_ctl05_ProductGridListView_ctrl0_ctl00_ProductGridItem_ctl02" class="productStrikeOutWasPriceSmall"></span><span id="ctl00_MainContentPlaceHolder_ctl00_ctl05_ProductGridListView_ctrl0_ctl00_ProductGridItem_ctl03" class="productRegularPrice"> $75.99</span>
+								</div>    
+								<div class="containerRating1"></div>
+							</div>        
+							<div class="span9div4 productGridItem">           				
+								<div class="productImg">
+									<a id="ctl00_MainContentPlaceHolder_ctl00_ctl05_ProductGridListView_ctrl0_ctl01_ProductGridItem_ctl00" title="Clarks Privo Women's Haley Falcon Lace-Up Shoes - 76349" href="http://www.footsmart.com/P-Clarks-Privo-Womens-Haley-Falcon-Lace-Up-Shoes-76349.aspx"><img title="Clarks Privo Women's Haley Falcon Lace-Up Shoes - 76349" src="http://s7ondemand1.scene7.com/is/image/BenchmarkBrands/76349_GREY_SUEDE?$135X135$" style="border-width:0px;"></a>
+								</div>
+								<div class="productTitle">						
+									<a id="ctl00_MainContentPlaceHolder_ctl00_ctl05_ProductGridListView_ctrl0_ctl01_ProductGridItem_ctl01" title="Clarks Privo Women's Haley Falcon Lace-Up Shoes - 76349" href="http://www.footsmart.com/P-Clarks-Privo-Womens-Haley-Falcon-Lace-Up-Shoes-76349.aspx">Clarks Privo Women's Haley Falcon Lace-Up Shoes</a>
+								</div>
+								<div class="productPrice">
+									<span id="ctl00_MainContentPlaceHolder_ctl00_ctl05_ProductGridListView_ctrl0_ctl01_ProductGridItem_ctl02" class="productStrikeOutWasPriceSmall"></span><span id="ctl00_MainContentPlaceHolder_ctl00_ctl05_ProductGridListView_ctrl0_ctl01_ProductGridItem_ctl03" class="productRegularPrice"> $79.99</span>
+								</div>    
+								<div class="containerRating2">        
+									<div class="starsDiv clearfix">
+										<div class="backgroundStarsEmpty"></div>
+										<div class="StarRating" style="width:80%;"></div>
+									</div>        
+								</div>				
+							</div>        
+							<div class="span9div4 productGridItem">               				
+								<div class="productImg">
+									<a id="ctl00_MainContentPlaceHolder_ctl00_ctl05_ProductGridListView_ctrl0_ctl02_ProductGridItem_ctl00" title="Clarks Privo Women's Haley Stork Slip-On Shoes - 79923" href="http://www.footsmart.com/P-Clarks-Privo-Womens-Haley-Stork-Slip-On-Shoes-79923.aspx"><img title="Clarks Privo Women's Haley Stork Slip-On Shoes - 79923" src="http://s7ondemand1.scene7.com/is/image/BenchmarkBrands/79923_BEIGE?$135X135$" style="border-width:0px;"></a>
+								</div>
+								<div class="productTitle">
+									<span class="productNew">new</span>
+									<a id="ctl00_MainContentPlaceHolder_ctl00_ctl05_ProductGridListView_ctrl0_ctl02_ProductGridItem_ctl01" title="Clarks Privo Women's Haley Stork Slip-On Shoes - 79923" href="http://www.footsmart.com/P-Clarks-Privo-Womens-Haley-Stork-Slip-On-Shoes-79923.aspx">Clarks Privo Women's Haley Stork Slip-On Shoes</a>
+								</div>
+								<div class="productPrice">
+									<span id="ctl00_MainContentPlaceHolder_ctl00_ctl05_ProductGridListView_ctrl0_ctl02_ProductGridItem_ctl02" class="productStrikeOutWasPriceSmall"></span><span id="ctl00_MainContentPlaceHolder_ctl00_ctl05_ProductGridListView_ctrl0_ctl02_ProductGridItem_ctl03" class="productRegularPrice"> $75.99</span>
+								</div>					
+								<div class="containerRating3"></div>				
+							</div>        
+							<div class="span9div4 productGridItem">            				
+								<div class="productImg">
+									<a id="ctl00_MainContentPlaceHolder_ctl00_ctl05_ProductGridListView_ctrl0_ctl03_ProductGridItem_ctl00" title="Clarks Bendables Women's Lexi Bark Slide Sandals - 86314" href="http://www.footsmart.com/P-Clarks-Bendables-Womens-Lexi-Bark-Slide-Sandals-86314.aspx"><img title="Clarks Bendables Women's Lexi Bark Slide Sandals - 86314" src="http://s7ondemand1.scene7.com/is/image/BenchmarkBrands/86314_SAND?$135X135$" style="border-width:0px;"></a>
+								</div>
+								<div class="productTitle">					
+									<a id="ctl00_MainContentPlaceHolder_ctl00_ctl05_ProductGridListView_ctrl0_ctl03_ProductGridItem_ctl01" title="Clarks Bendables Women's Lexi Bark Slide Sandals - 86314" href="http://www.footsmart.com/P-Clarks-Bendables-Womens-Lexi-Bark-Slide-Sandals-86314.aspx">Clarks Bendables Women's Lexi Bark Slide Sandals</a>
+								</div>
+								<div class="productPrice">
+									<span id="ctl00_MainContentPlaceHolder_ctl00_ctl05_ProductGridListView_ctrl0_ctl03_ProductGridItem_ctl02" class="productStrikeOutWasPriceSmall"></span><span id="ctl00_MainContentPlaceHolder_ctl00_ctl05_ProductGridListView_ctrl0_ctl03_ProductGridItem_ctl03" class="productRegularPrice"> $75.99</span>
+								</div>					
+								<div class="containerRating4">        
+									<div class="starsDiv clearfix">
+										<div class="backgroundStarsEmpty"></div>
+										<div class="StarRating" style="width:90%;"></div>
+									</div>       
+								</div>				
+							</div>        
+						</div>
+						<div class="productGridRow clearfix span9"> 
+							<div class="span9div4 productGridItem">               
+								<div class="productImg">
+									<a id="ctl00_MainContentPlaceHolder_ctl00_ctl05_ProductGridListView_ctrl0_ctl00_ProductGridItem_ctl00" title="Clarks Bendables Women's Ashland Rivers Fisherman Shoes - 79922" href="http://www.footsmart.com/P-Clarks-Bendables-Womens-Ashland-Rivers-Fisherman-Shoes-79922.aspx"><img title="Clarks Bendables Women's Ashland Rivers Fisherman Shoes - 79922" src="http://s7ondemand1.scene7.com/is/image/BenchmarkBrands/79922_TAN?$135X135$" style="border-width:0px;"></a>
+								</div>
+								<div class="productTitle">
+									<span class="productNew">new</span>
+									<a id="ctl00_MainContentPlaceHolder_ctl00_ctl05_ProductGridListView_ctrl0_ctl00_ProductGridItem_ctl01" title="Clarks Bendables Women's Ashland Rivers Fisherman Shoes - 79922" href="http://www.footsmart.com/P-Clarks-Bendables-Womens-Ashland-Rivers-Fisherman-Shoes-79922.aspx">Clarks Bendables Women's Ashland Rivers Fisherman Shoes</a>
+								</div>
+								<div class="productPrice">
+									<span id="ctl00_MainContentPlaceHolder_ctl00_ctl05_ProductGridListView_ctrl0_ctl00_ProductGridItem_ctl02" class="productStrikeOutWasPriceSmall"></span><span id="ctl00_MainContentPlaceHolder_ctl00_ctl05_ProductGridListView_ctrl0_ctl00_ProductGridItem_ctl03" class="productRegularPrice"> $75.99</span>
+								</div>    
+								<div class="containerRating1"></div>
+							</div>        
+							<div class="span9div4 productGridItem">           				
+								<div class="productImg">
+									<a id="ctl00_MainContentPlaceHolder_ctl00_ctl05_ProductGridListView_ctrl0_ctl01_ProductGridItem_ctl00" title="Clarks Privo Women's Haley Falcon Lace-Up Shoes - 76349" href="http://www.footsmart.com/P-Clarks-Privo-Womens-Haley-Falcon-Lace-Up-Shoes-76349.aspx"><img title="Clarks Privo Women's Haley Falcon Lace-Up Shoes - 76349" src="http://s7ondemand1.scene7.com/is/image/BenchmarkBrands/76349_GREY_SUEDE?$135X135$" style="border-width:0px;"></a>
+								</div>
+								<div class="productTitle">						
+									<a id="ctl00_MainContentPlaceHolder_ctl00_ctl05_ProductGridListView_ctrl0_ctl01_ProductGridItem_ctl01" title="Clarks Privo Women's Haley Falcon Lace-Up Shoes - 76349" href="http://www.footsmart.com/P-Clarks-Privo-Womens-Haley-Falcon-Lace-Up-Shoes-76349.aspx">Clarks Privo Women's Haley Falcon Lace-Up Shoes</a>
+								</div>
+								<div class="productPrice">
+									<span id="ctl00_MainContentPlaceHolder_ctl00_ctl05_ProductGridListView_ctrl0_ctl01_ProductGridItem_ctl02" class="productStrikeOutWasPriceSmall"></span><span id="ctl00_MainContentPlaceHolder_ctl00_ctl05_ProductGridListView_ctrl0_ctl01_ProductGridItem_ctl03" class="productRegularPrice"> $79.99</span>
+								</div>    
+								<div class="containerRating2">        
+									<div class="starsDiv clearfix">
+										<div class="backgroundStarsEmpty"></div>
+										<div class="StarRating" style="width:80%;"></div>
+									</div>        
+								</div>				
+							</div>        
+							<div class="span9div4 productGridItem">               				
+								<div class="productImg">
+									<a id="ctl00_MainContentPlaceHolder_ctl00_ctl05_ProductGridListView_ctrl0_ctl02_ProductGridItem_ctl00" title="Clarks Privo Women's Haley Stork Slip-On Shoes - 79923" href="http://www.footsmart.com/P-Clarks-Privo-Womens-Haley-Stork-Slip-On-Shoes-79923.aspx"><img title="Clarks Privo Women's Haley Stork Slip-On Shoes - 79923" src="http://s7ondemand1.scene7.com/is/image/BenchmarkBrands/79923_BEIGE?$135X135$" style="border-width:0px;"></a>
+								</div>
+								<div class="productTitle">
+									<span class="productNew">new</span>
+									<a id="ctl00_MainContentPlaceHolder_ctl00_ctl05_ProductGridListView_ctrl0_ctl02_ProductGridItem_ctl01" title="Clarks Privo Women's Haley Stork Slip-On Shoes - 79923" href="http://www.footsmart.com/P-Clarks-Privo-Womens-Haley-Stork-Slip-On-Shoes-79923.aspx">Clarks Privo Women's Haley Stork Slip-On Shoes</a>
+								</div>
+								<div class="productPrice">
+									<span id="ctl00_MainContentPlaceHolder_ctl00_ctl05_ProductGridListView_ctrl0_ctl02_ProductGridItem_ctl02" class="productStrikeOutWasPriceSmall"></span><span id="ctl00_MainContentPlaceHolder_ctl00_ctl05_ProductGridListView_ctrl0_ctl02_ProductGridItem_ctl03" class="productRegularPrice"> $75.99</span>
+								</div>					
+								<div class="containerRating3"></div>				
+							</div>        
+							<div class="span9div4 productGridItem">            				
+								<div class="productImg">
+									<a id="ctl00_MainContentPlaceHolder_ctl00_ctl05_ProductGridListView_ctrl0_ctl03_ProductGridItem_ctl00" title="Clarks Bendables Women's Lexi Bark Slide Sandals - 86314" href="http://www.footsmart.com/P-Clarks-Bendables-Womens-Lexi-Bark-Slide-Sandals-86314.aspx"><img title="Clarks Bendables Women's Lexi Bark Slide Sandals - 86314" src="http://s7ondemand1.scene7.com/is/image/BenchmarkBrands/86314_SAND?$135X135$" style="border-width:0px;"></a>
+								</div>
+								<div class="productTitle">					
+									<a id="ctl00_MainContentPlaceHolder_ctl00_ctl05_ProductGridListView_ctrl0_ctl03_ProductGridItem_ctl01" title="Clarks Bendables Women's Lexi Bark Slide Sandals - 86314" href="http://www.footsmart.com/P-Clarks-Bendables-Womens-Lexi-Bark-Slide-Sandals-86314.aspx">Clarks Bendables Women's Lexi Bark Slide Sandals</a>
+								</div>
+								<div class="productPrice">
+									<span id="ctl00_MainContentPlaceHolder_ctl00_ctl05_ProductGridListView_ctrl0_ctl03_ProductGridItem_ctl02" class="productStrikeOutWasPriceSmall"></span><span id="ctl00_MainContentPlaceHolder_ctl00_ctl05_ProductGridListView_ctrl0_ctl03_ProductGridItem_ctl03" class="productRegularPrice"> $75.99</span>
+								</div>					
+								<div class="containerRating4">        
+									<div class="starsDiv clearfix">
+										<div class="backgroundStarsEmpty"></div>
+										<div class="StarRating" style="width:90%;"></div>
+									</div>       
+								</div>				
+							</div>        
+						</div>
+						<div class="productGridRow clearfix span9"> 
+							<div class="span9div4 productGridItem">               
+								<div class="productImg">
+									<a id="ctl00_MainContentPlaceHolder_ctl00_ctl05_ProductGridListView_ctrl0_ctl00_ProductGridItem_ctl00" title="Clarks Bendables Women's Ashland Rivers Fisherman Shoes - 79922" href="http://www.footsmart.com/P-Clarks-Bendables-Womens-Ashland-Rivers-Fisherman-Shoes-79922.aspx"><img title="Clarks Bendables Women's Ashland Rivers Fisherman Shoes - 79922" src="http://s7ondemand1.scene7.com/is/image/BenchmarkBrands/79922_TAN?$135X135$" style="border-width:0px;"></a>
+								</div>
+								<div class="productTitle">
+									<span class="productNew">new</span>
+									<a id="ctl00_MainContentPlaceHolder_ctl00_ctl05_ProductGridListView_ctrl0_ctl00_ProductGridItem_ctl01" title="Clarks Bendables Women's Ashland Rivers Fisherman Shoes - 79922" href="http://www.footsmart.com/P-Clarks-Bendables-Womens-Ashland-Rivers-Fisherman-Shoes-79922.aspx">Clarks Bendables Women's Ashland Rivers Fisherman Shoes</a>
+								</div>
+								<div class="productPrice">
+									<span id="ctl00_MainContentPlaceHolder_ctl00_ctl05_ProductGridListView_ctrl0_ctl00_ProductGridItem_ctl02" class="productStrikeOutWasPriceSmall"></span><span id="ctl00_MainContentPlaceHolder_ctl00_ctl05_ProductGridListView_ctrl0_ctl00_ProductGridItem_ctl03" class="productRegularPrice"> $75.99</span>
+								</div>    
+								<div class="containerRating1"></div>
+							</div>        
+							<div class="span9div4 productGridItem">           				
+								<div class="productImg">
+									<a id="ctl00_MainContentPlaceHolder_ctl00_ctl05_ProductGridListView_ctrl0_ctl01_ProductGridItem_ctl00" title="Clarks Privo Women's Haley Falcon Lace-Up Shoes - 76349" href="http://www.footsmart.com/P-Clarks-Privo-Womens-Haley-Falcon-Lace-Up-Shoes-76349.aspx"><img title="Clarks Privo Women's Haley Falcon Lace-Up Shoes - 76349" src="http://s7ondemand1.scene7.com/is/image/BenchmarkBrands/76349_GREY_SUEDE?$135X135$" style="border-width:0px;"></a>
+								</div>
+								<div class="productTitle">						
+									<a id="ctl00_MainContentPlaceHolder_ctl00_ctl05_ProductGridListView_ctrl0_ctl01_ProductGridItem_ctl01" title="Clarks Privo Women's Haley Falcon Lace-Up Shoes - 76349" href="http://www.footsmart.com/P-Clarks-Privo-Womens-Haley-Falcon-Lace-Up-Shoes-76349.aspx">Clarks Privo Women's Haley Falcon Lace-Up Shoes</a>
+								</div>
+								<div class="productPrice">
+									<span id="ctl00_MainContentPlaceHolder_ctl00_ctl05_ProductGridListView_ctrl0_ctl01_ProductGridItem_ctl02" class="productStrikeOutWasPriceSmall"></span><span id="ctl00_MainContentPlaceHolder_ctl00_ctl05_ProductGridListView_ctrl0_ctl01_ProductGridItem_ctl03" class="productRegularPrice"> $79.99</span>
+								</div>    
+								<div class="containerRating2">        
+									<div class="starsDiv clearfix">
+										<div class="backgroundStarsEmpty"></div>
+										<div class="StarRating" style="width:80%;"></div>
+									</div>        
+								</div>				
+							</div>        
+							<div class="span9div4 productGridItem">               				
+								<div class="productImg">
+									<a id="ctl00_MainContentPlaceHolder_ctl00_ctl05_ProductGridListView_ctrl0_ctl02_ProductGridItem_ctl00" title="Clarks Privo Women's Haley Stork Slip-On Shoes - 79923" href="http://www.footsmart.com/P-Clarks-Privo-Womens-Haley-Stork-Slip-On-Shoes-79923.aspx"><img title="Clarks Privo Women's Haley Stork Slip-On Shoes - 79923" src="http://s7ondemand1.scene7.com/is/image/BenchmarkBrands/79923_BEIGE?$135X135$" style="border-width:0px;"></a>
+								</div>
+								<div class="productTitle">
+									<span class="productNew">new</span>
+									<a id="ctl00_MainContentPlaceHolder_ctl00_ctl05_ProductGridListView_ctrl0_ctl02_ProductGridItem_ctl01" title="Clarks Privo Women's Haley Stork Slip-On Shoes - 79923" href="http://www.footsmart.com/P-Clarks-Privo-Womens-Haley-Stork-Slip-On-Shoes-79923.aspx">Clarks Privo Women's Haley Stork Slip-On Shoes</a>
+								</div>
+								<div class="productPrice">
+									<span id="ctl00_MainContentPlaceHolder_ctl00_ctl05_ProductGridListView_ctrl0_ctl02_ProductGridItem_ctl02" class="productStrikeOutWasPriceSmall"></span><span id="ctl00_MainContentPlaceHolder_ctl00_ctl05_ProductGridListView_ctrl0_ctl02_ProductGridItem_ctl03" class="productRegularPrice"> $75.99</span>
+								</div>					
+								<div class="containerRating3"></div>				
+							</div>        
+							<div class="span9div4 productGridItem">            				
+								<div class="productImg">
+									<a id="ctl00_MainContentPlaceHolder_ctl00_ctl05_ProductGridListView_ctrl0_ctl03_ProductGridItem_ctl00" title="Clarks Bendables Women's Lexi Bark Slide Sandals - 86314" href="http://www.footsmart.com/P-Clarks-Bendables-Womens-Lexi-Bark-Slide-Sandals-86314.aspx"><img title="Clarks Bendables Women's Lexi Bark Slide Sandals - 86314" src="http://s7ondemand1.scene7.com/is/image/BenchmarkBrands/86314_SAND?$135X135$" style="border-width:0px;"></a>
+								</div>
+								<div class="productTitle">					
+									<a id="ctl00_MainContentPlaceHolder_ctl00_ctl05_ProductGridListView_ctrl0_ctl03_ProductGridItem_ctl01" title="Clarks Bendables Women's Lexi Bark Slide Sandals - 86314" href="http://www.footsmart.com/P-Clarks-Bendables-Womens-Lexi-Bark-Slide-Sandals-86314.aspx">Clarks Bendables Women's Lexi Bark Slide Sandals</a>
+								</div>
+								<div class="productPrice">
+									<span id="ctl00_MainContentPlaceHolder_ctl00_ctl05_ProductGridListView_ctrl0_ctl03_ProductGridItem_ctl02" class="productStrikeOutWasPriceSmall"></span><span id="ctl00_MainContentPlaceHolder_ctl00_ctl05_ProductGridListView_ctrl0_ctl03_ProductGridItem_ctl03" class="productRegularPrice"> $75.99</span>
+								</div>					
+								<div class="containerRating4">        
+									<div class="starsDiv clearfix">
+										<div class="backgroundStarsEmpty"></div>
+										<div class="StarRating" style="width:90%;"></div>
+									</div>       
+								</div>				
+							</div>        
+						</div>
 						<div class="productGridRow clearfix span9"> 
 							<div class="span9div4 productGridItem">               
 								<div class="productImg">

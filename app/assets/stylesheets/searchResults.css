@@ -8,7 +8,7 @@ div.container h1 {font-size:1em; line-height:31px font-size:15px; font-weight:bo
 #mainSearchContainer {	border: solid 1px #D8D9DB; box-sizing:border-box/9; }
 
 /*Category Banner--breadcrumb Bar */
-#categoryBanner { display:none; background:url(/Images/searchResults-banner-category-breadcrumb.png); height:54px; width:770px;  margin-bottom:7px;  }
+#categoryBanner { display:none; background:url("http://www.footsmart.com/Images/searchResults-banner-category-breadcrumb.png"); height:54px; width:770px;  margin-bottom:7px;  }
 #categoryBanner p {color:#3c78d2; font-weight:bold; font-size:18px; line-height:31px; padding-left:220px}
 #categoryBanner p a {color:#3c78d2;}
 #categoryBanner p a:hover {text-decoration:none;}
@@ -23,7 +23,7 @@ div.container h1 {font-size:1em; line-height:31px font-size:15px; font-weight:bo
 #searchResultsBanner .searchResults { float:left; font-weight:bold;	font-size:16px;	line-height:31px; background:url(/Images/searchResults-bulletArrow.gif) no-repeat 11px 12px; padding-left:20px }
 
 /*Quick Search Bar */
-#quickSearchContainer { height:36px; background:url(/Images/searchResults-quickSearch.gif) no-repeat 0 50%; padding-left:128px; border-bottom: 1px solid #D8D9DB; }
+#quickSearchContainer { height:36px; background:url("http://www.footsmart.com/Images/searchResults-quickSearch.gif") no-repeat 0 50%; padding-left:128px; border-bottom: 1px solid #D8D9DB; }
 #quickSearchContainer select { margin-top: 7px; margin-right:4px; width:150px;}
 /* Everything but IE6-8 */
 :root *> #quickSearchContainer select { margin-top: 9px; }
@@ -92,11 +92,11 @@ div.bottomPageNav {border: 1px solid #D8D9DB; border-top:none;}
 
 /*style="display: inline-block; height: 20px; width: 20px;" style="width: 20px; float: right;"*/
 
-#searchBreadCrumb .narrowedByBox {border: solid 1px #D8D9DB;  margin-bottom: 10px; margin-left:1px;  line-height: 20px; background:#eaeee4 url(/Images/searchResult-breadbox-gradient.png) repeat-x  }
+#searchBreadCrumb .narrowedByBox {border: solid 1px #D8D9DB;  margin-bottom: 10px; margin-left:1px;  line-height: 20px; background:#eaeee4 url("http://www.footsmart.com/Images/searchResult-breadbox-gradient.png") repeat-x  }
 #searchBreadCrumb .narrowedByBox span.breadboxItem {*float:left}
 #searchBreadCrumb .narrowedByBox ul {padding-top:7px}
 #searchBreadCrumb ul li { padding-left:8px;}
-#searchBreadCrumb .breadBoxCheckmark { background:url(/Images/searchResult-xMark.png) no-repeat 50% 100%; width:15px; height:19px; float:right; margin-right:7px; display:inline-block}
+#searchBreadCrumb .breadBoxCheckmark { background:url("http://www.footsmart.com/Images/searchResult-xMark.png") no-repeat 50% 100%; width:15px; height:19px; float:right; margin-right:7px; display:inline-block}
 
 #searchBreadCrumb li { font-size: 12px; list-style-type:none; line-height: 20px;  }
 
@@ -131,7 +131,7 @@ div.bottomPageNav {border: 1px solid #D8D9DB; border-top:none;}
 #guidedNavigation ul#navlist { margin:0;}
 #guidedNavigation ul#navlist li a.dimension { background:url('/assets/searchResultsCatBG.png') no-repeat; height:29px; padding-top:5px;}
 #guidedNavigation ul#navlist li.collapsed div {display:none;}
-#guidedNavigation li.collapsed {background: url(/Images/searchResult-seeMoreArrow.png) no-repeat 100% 50%;  }
+#guidedNavigation li.collapsed {background: url("http://www.footsmart.com/Images/searchResult-seeMoreArrow.png") no-repeat 100% 50%;  }
 
 #guidedNavigation ul#navlist li.collapsed a.dimension {cursor: pointer; background:url('/assets/searchResultsCatCollapsedBG.png')  no-repeat; height:auto; padding-right:22px; padding-bottom:3px}
 #guidedNavigation ul#navlist li.expanded  a.dimension{cursor: pointer; background:#eef2e9 url('http://www.footsmart.com/Images/searchResult-dimension-gradient-sample2.png') no-repeat 97% 50%; height:29px}
