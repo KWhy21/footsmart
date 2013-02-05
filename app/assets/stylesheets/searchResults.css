@@ -5,7 +5,8 @@ div.searchResults h1 {display:inline; line-height:31px; margin-right:5px; text-t
 div.container h1 {font-size:1em; line-height:31px font-size:15px; font-weight:bold; text-transform:capitalize; color:#232323 }
 
 /*mainSearchContainer*/
-#mainSearchContainer {	border: solid 1px #D8D9DB; box-sizing:border-box/9; }
+#mainSearchContainer {	 }
+#searchPagingContainer { border: solid 1px #D8D9DB; box-sizing:border-box/9; }
 
 /*Category Banner--breadcrumb Bar */
 #categoryBanner { display:none; background:url("http://www.footsmart.com/Images/searchResults-banner-category-breadcrumb.png"); height:54px; width:770px;  margin-bottom:7px;  }
@@ -80,7 +81,7 @@ div.container h1 {font-size:1em; line-height:31px font-size:15px; font-weight:bo
 .pageNavigation ul.pagination li.previous a {  display:block; border:none; font-weight:bold; width:20px; height:21px;  margin-right: 5px; background:#fff url('http://www.footsmart.com/Images/searchResult-previousArrowBlock.png') no-repeat 11px 1px;}
 .pageNavigation ul.pagination li.previous a:hover {background-color:#fff}
 .pageNavigation .paginationEllipsis {color:#999; margin-right:4px; position: relative; top: 5px;}
-div.bottomPageNav {border: 1px solid #D8D9DB; border-top:none;}
+div.bottomPageNav {border: 1px solid #D8D9DB; border-top:none; box-sizing: border-box;}
 
 .pageNavigation {line-height:30px; margin-right:15px; margin-top:3px; float:right;}
 .pageNavigation  a.currentPageNumber, .productsPageBar li.currentSelection a{ text-decoration: none;	font-weight:bold; cursor:default}

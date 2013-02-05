@@ -275,7 +275,7 @@ a:hover {
   width: 700px;
 }
 	.span9div4 {
-		width: 165px;
+		width: 164px; /* should be 165, did 164 to fit with borders */
 		margin-left: 10px	
 	}
 .span8 {
