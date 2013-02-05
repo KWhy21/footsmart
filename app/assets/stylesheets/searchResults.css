@@ -111,7 +111,7 @@ div.bottomPageNav {border: 1px solid #D8D9DB; border-top:none;}
 #guidedNavigation li a { margin: 0px; display: block; color:#3f3f3f; padding-top: 5px; padding-left:7px;_height:15px;  } /*You can not apply height here, will not allow refinement values to wrap to second line*/
 
 #guidedNavigation li a:hover {background-color:none; text-decoration:none;}
-#guidedNavigation li { list-style: none; white-space: normal; width: 192px; }
+#guidedNavigation li { list-style: none; white-space: normal; width: 218px; }
 #guidedNavigation ul ul.subnavlist { width:100%; margin: 0 0 5px 0;   }
 
 #guidedNavigation ul ul a {background-color:white; font-weight:normal; border-top:none; color:#050505; }
@@ -129,7 +129,7 @@ div.bottomPageNav {border: 1px solid #D8D9DB; border-top:none;}
 #guidedNavigation .more a:hover, #guidedNavigation .less a:hover { text-decoration:underline; background-color: #fff; }
 
 #guidedNavigation ul#navlist { margin:0;}
-#guidedNavigation ul#navlist li a.dimension { background:url('/assets/searchResultsCatBG.png') no-repeat; height:29px; padding-top:5px;}
+#guidedNavigation ul#navlist li a.dimension { background:url('/assets/searchResultsCatBG.png') repeat-x; height:29px; padding-top:5px;}
 #guidedNavigation ul#navlist li.collapsed div {display:none;}
 #guidedNavigation li.collapsed {background: url("http://www.footsmart.com/Images/searchResult-seeMoreArrow.png") no-repeat 100% 50%;  }
 

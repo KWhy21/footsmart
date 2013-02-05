@@ -1,61 +1,35 @@
 <% provide(:title, 'Footsmart Responsive Design Demo') %>
 
-<div class="navbar navbar-inverse">
-      <div class="navbar-inner">
-        <div class="container">
-          <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </a>
-          <a class="brand" href="#">FootSmart</a>
-          <div class="nav-collapse collapse">
-            <ul class="nav">
-              <li class="active"><a href="#">Home</a></li>
-              <li><a href="#about">About</a></li>
-              <li><a href="#contact">Contact</a></li>
-              <li class="dropdown">
-                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
-                <ul class="dropdown-menu">
-                  <li><a href="#">Action</a></li>
-                  <li><a href="#">Another action</a></li>
-                  <li><a href="#">Something else here</a></li>
-                  <li class="divider"></li>
-                  <li class="nav-header">Nav header</li>
-                  <li><a href="#">Separated link</a></li>
-                  <li><a href="#">One more separated link</a></li>
-                </ul>
-              </li>
-            </ul>            
-          </div><!--/.nav-collapse -->
-        </div>
-      </div>
-    </div>
-
 <div class="container">
-	<div class="clearfix row span12">		
-		<div id="topLinks">
-			<a href="http://www.footsmart.com/Default.aspx" onclick="fsCoremetricsOld.ElementTagWithAttributes('Home','Top Nav','Top Nav','Logo And Links');" id="homelink">Home</a> 
-			| <a href="http://www.footsmart.com/CatalogRequest.aspx" onclick="fsCoremetricsOld.ElementTagWithAttributes('Catalog Request','Top Nav','Top Nav','Logo And Links');">Catalog Request</a> 
-			| <a href="http://www.footsmart.com/Page.aspx?PageId=1045" onclick="fsCoremetricsOld.ElementTagWithAttributes('Online Catalog','Top Nav','Top Nav','Logo And Links');">Online Catalog</a> 
-			| <a href="http://www.footsmart.com/newslettersignup.aspx" onclick="fsCoremetricsOld.ElementTagWithAttributes('Email','Top Nav','Top Nav','Logo And Links');">Email Sign-Up</a> 
-			| <span>1 (800) 707-9928</span>
-			| <a href="http://www.footsmart.com/AccountHome.aspx" onclick="fsCoremetricsOld.ElementTagWithAttributes('Account','Top Nav','Top Nav','Account');">My Account</a> 
-			| <a href="http://www.footsmart.com/Login.aspx?ReturnUrl=%2fAccountHome.aspx" onclick="fsCoremetricsOld.ElementTagWithAttributes('Account','Top Nav','Top Nav','Account');" id="A1">Account Sign-In</a>
+	<div class="clearfix row">		
+		<div class="span12">
+			<div id="topLinks">
+				<a href="http://www.footsmart.com/Default.aspx" onclick="fsCoremetricsOld.ElementTagWithAttributes('Home','Top Nav','Top Nav','Logo And Links');" id="homelink">Home</a> 
+				| <a href="http://www.footsmart.com/CatalogRequest.aspx" onclick="fsCoremetricsOld.ElementTagWithAttributes('Catalog Request','Top Nav','Top Nav','Logo And Links');">Catalog Request</a> 
+				| <a href="http://www.footsmart.com/Page.aspx?PageId=1045" onclick="fsCoremetricsOld.ElementTagWithAttributes('Online Catalog','Top Nav','Top Nav','Logo And Links');">Online Catalog</a> 
+				| <a href="http://www.footsmart.com/newslettersignup.aspx" onclick="fsCoremetricsOld.ElementTagWithAttributes('Email','Top Nav','Top Nav','Logo And Links');">Email Sign-Up</a> 
+				| <span>1 (800) 707-9928</span>
+				| <a href="http://www.footsmart.com/AccountHome.aspx" onclick="fsCoremetricsOld.ElementTagWithAttributes('Account','Top Nav','Top Nav','Account');">My Account</a> 
+				| <a href="http://www.footsmart.com/Login.aspx?ReturnUrl=%2fAccountHome.aspx" onclick="fsCoremetricsOld.ElementTagWithAttributes('Account','Top Nav','Top Nav','Account');" id="A1">Account Sign-In</a>
+			</div>
 		</div>
-		
-		<div class="topnav logohead">
+	</div>
+	<div class="row m10t m10b">
+		<div class="span5">						
 			<div class="topNavLeft">
 				<span id="logoFootSmart" style="display:none"><a class="fs" href="http://www.footsmart.com/Default.aspx" onclick="fsCoremetricsOld.ElementTagWithAttributes('Logo','Top Nav','Top Nav','Logo And Links');" title="FootSmart :: Comfortable Walking Shoes &amp; Foot Pain Products for Heel Pain, Back Support &amp; Foot Problems :: Comfort Footwear"></a></span>
 				<span id="logoComfortology" style="display:none"><a class="ct" href="http://www.footsmart.com/Comfortology/Default.aspx" onclick="fsCoremetricsOld.ElementTagWithAttributes('Logo','Top Nav','Top Nav','Logo And Links');" title="Comfortology :: Really great shoes... surprisingly comfortable!"></a></span>
 				<span id="logoCobranded" style="display:inline"><a class="cobrandfs" href="http://www.footsmart.com/Default.aspx" onclick="fsCoremetricsOld.ElementTagWithAttributes('Logo','Top Nav','Top Nav','Logo And Links');" title="FootSmart :: Comfortable Walking Shoes &amp; Foot Pain Products for Heel Pain, Back Support &amp; Foot Problems :: Comfort Footwear"></a><span class="space"></span><a class="cobrandct" href="/Comfortology/Default.aspx" title="Comfortology :: Really great shoes... surprisingly comfortable!"></a></span>
 			</div>
-			<div class="topNavRight">
-				<span class="fscart"></span><span class="ctcart"></span><a id="cartLink" href="http://www.footsmart.com/ShoppingCart.aspx" onclick="fsCoremetricsOld.ElementTagWithAttributes('Shopping Cart','Top Nav','Top Nav','Account');" class="topnavlink">Shopping Cart <span class="cartCountText">(</span><span id="cartCountText" class="cartCountText">0 items</span><span class="cartCountText">)</span></a>
-				<div id="globalCartPromoText" style="display:none;"></div>
-				
-					<table id="searchBar" border="0" cellspacing="0" cellpadding="0">
-					<tbody><tr>
+		</div>
+		<div class="span3">			
+			<span class="fscart"></span><span class="ctcart"></span><a id="cartLink" href="http://www.footsmart.com/ShoppingCart.aspx" onclick="fsCoremetricsOld.ElementTagWithAttributes('Shopping Cart','Top Nav','Top Nav','Account');" class="topnavlink">Shopping Cart <span class="cartCountText">(</span><span id="cartCountText" class="cartCountText">0 items</span><span class="cartCountText">)</span></a>
+			<div id="globalCartPromoText" style="display:none;"></div>				
+		</div>
+		<div class="span4">
+			<table id="searchBar" border="0" cellspacing="0" cellpadding="0">
+				<tbody>
+					<tr>
 						<td id="searchAreaCell">
 							<div id="oldMenu">
 								<input name="ctl00$SiteHeaderControl$tbNavSearch" type="text" value="Enter keyword or item #" maxlength="200" id="ctl00_SiteHeaderControl_tbNavSearch" class="toggletext tbNavSearch" toggletext="Enter keyword or item #">
@@ -65,9 +39,9 @@
 							<div id="typeAheadContainer" class="typeahead" style="display:none;"><ul class="autosuggest"></ul></div></div>
 						</td>
 					</tr>
-					</tbody></table>				
-			</div>
-		</div>			
+				</tbody>
+			</table>    
+		</div>
 	</div>
 	<div id="banner" class="row">		
 		<div class="span12">
@@ -99,9 +73,7 @@
 		<div class="span12">
 			<div class="row">
 				<div class="span3">
-				
-				
-					<div class="sidebarLeft span-32 m10r">
+					<div class="sidebarLeft m10r">
 						<div id="searchBreadCrumb">
 							<div class="imgTitle">
 								<img src="http://www.footsmart.com/Images/searchresults-refineyour.gif" title="Refine Your Search" alt="Refine Your Search">
