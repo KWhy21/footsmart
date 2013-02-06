@@ -71,6 +71,7 @@ div.container h1 {font-size:1em; line-height:31px font-size:15px; font-weight:bo
 
 */
 
+.pageNavigation ul.pagination { margin: 0; }
 .pageNavigation ul.pagination li.next { }
 .pageNavigation ul.pagination li.next a { display:block; border:none; font-weight:bold; width:20px; height:21px; background:#fff url('http://www.footsmart.com/Images/searchResult-nextArrowBlock.png') no-repeat 0 1px; padding-right:0; margin-right:0  }
 .pageNavigation ul.pagination li.next a:hover {background-color:#fff;} 
@@ -81,7 +82,7 @@ div.container h1 {font-size:1em; line-height:31px font-size:15px; font-weight:bo
 .pageNavigation ul.pagination li.previous a {  display:block; border:none; font-weight:bold; width:20px; height:21px;  margin-right: 5px; background:#fff url('http://www.footsmart.com/Images/searchResult-previousArrowBlock.png') no-repeat 11px 1px;}
 .pageNavigation ul.pagination li.previous a:hover {background-color:#fff}
 .pageNavigation .paginationEllipsis {color:#999; margin-right:4px; position: relative; top: 5px;}
-div.bottomPageNav {border: 1px solid #D8D9DB; border-top:none; box-sizing: border-box;}
+div.bottomPageNav {border: 1px solid #D8D9DB; border-top:none; box-sizing: border-box; -moz-box-sizing:border-box;}
 
 .pageNavigation {line-height:30px; margin-right:15px; margin-top:3px; float:right;}
 .pageNavigation  a.currentPageNumber, .productsPageBar li.currentSelection a{ text-decoration: none;	font-weight:bold; cursor:default}
@@ -112,7 +113,7 @@ div.bottomPageNav {border: 1px solid #D8D9DB; border-top:none; box-sizing: borde
 #guidedNavigation li a { margin: 0px; display: block; color:#3f3f3f; padding-top: 5px; padding-left:7px;_height:15px;  } /*You can not apply height here, will not allow refinement values to wrap to second line*/
 
 #guidedNavigation li a:hover {background-color:none; text-decoration:none;}
-#guidedNavigation li { list-style: none; white-space: normal; width: 218px; }
+#guidedNavigation li { list-style: none; white-space: normal; width: 191px; }
 #guidedNavigation ul ul.subnavlist { width:100%; margin: 0 0 5px 0;   }
 
 #guidedNavigation ul ul a {background-color:white; font-weight:normal; border-top:none; color:#050505; }
@@ -130,11 +131,11 @@ div.bottomPageNav {border: 1px solid #D8D9DB; border-top:none; box-sizing: borde
 #guidedNavigation .more a:hover, #guidedNavigation .less a:hover { text-decoration:underline; background-color: #fff; }
 
 #guidedNavigation ul#navlist { margin:0;}
-#guidedNavigation ul#navlist li a.dimension { background:url('/assets/searchResultsCatBG.png') repeat-x; height:29px; padding-top:5px;}
-#guidedNavigation ul#navlist li.collapsed div {display:none;}
+#guidedNavigation ul#navlist li a.dimension { background:url('/assets/searchResultsCatBG.png') no-repeat; height:29px; width: 191px; padding-top:5px;}
+#guidedNavigation ul#navlist li.collapsed div { display:none; }
 #guidedNavigation li.collapsed {background: url("http://www.footsmart.com/Images/searchResult-seeMoreArrow.png") no-repeat 100% 50%;  }
 
-#guidedNavigation ul#navlist li.collapsed a.dimension {cursor: pointer; background:url('/assets/searchResultsCatCollapsedBG.png')  no-repeat; height:auto; padding-right:22px; padding-bottom:3px}
+#guidedNavigation ul#navlist li.collapsed a.dimension {cursor: pointer; background:url('/assets/searchResultsCatCollapsedBG.png')  repeat-x; height:auto; padding-bottom:3px}
 #guidedNavigation ul#navlist li.expanded  a.dimension{cursor: pointer; background:#eef2e9 url('http://www.footsmart.com/Images/searchResult-dimension-gradient-sample2.png') no-repeat 97% 50%; height:29px}
 
 
@@ -142,10 +143,9 @@ div.bottomPageNav {border: 1px solid #D8D9DB; border-top:none; box-sizing: borde
 #guidedNavigation .narrowedMessage { border-top: solid 1px #D8D9DB;	padding: 7px 7px 7px 7px;}
 #guidedNavigation .dimValueLink { text-decoration: none; color: #2C2C2C; }
 
-.productGridRow {  position:relative; border-left: 1px solid #D8D9DB; border-right: 1px solid #D8D9DB;	
-	border-bottom: 1px solid #D8D9DB; background-image:url('/assets/searchResultsGridBG.gif'); background-repeat:repeat-y;}
+.productGridRow {  position:relative; border-bottom: 1px solid #D8D9DB; background-image:url('/assets/searchResultsGridBG.gif'); background-repeat:repeat-y;}
 .productGridRow .productGridItem a {  font-weight:bold; font-size:12px; text-decoration:none;}
-.productGridItem { text-align:center; padding:7px 10px 30px 0px;box-sizing:border-box; float: left; }
+.productGridItem { text-align:center; padding:7px 10px 30px 0px;box-sizing:border-box; -moz-box-sizing:border-box; float: left; }
 .productGridItem a:hover { text-decoration:underline }
 .productGridItem .productImg { margin: 0 auto; }
 .productGridItem .productTitle {}
@@ -159,6 +159,7 @@ div.bottomPageNav {border: 1px solid #D8D9DB; border-top:none; box-sizing: borde
 .productGridItem .productStrikeOutWasPriceSmall { color: #636363; font-size:12px; text-decoration: line-through; }
 .productGridItem .productStrikeOutNowPriceSmall { color: #A50000;  font-size:12px; text-decoration:none; }
 .productGridItem .productRegularPrice { text-decoration:none; font-size: 12px; text-decoration: none; font-weight:bold; }
+
 
 .lastProduct { border-right: none !important; }
 .noBorderR { border-right: none; }
