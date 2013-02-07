@@ -42,8 +42,7 @@ a, a:link, a:visited, a:hover, a:active
 	background: url('http://www.footsmart.com/Images/common-sprite2.png') no-repeat -277px -533px;
     color: #1C356E;
 	border-right: 1px solid #d7d5d4;	
-    display: table-cell;
-	
+    display: table-cell;	
 	z-index: 10;
 	float: left;
 	box-sizing: padding-box;
@@ -51,7 +50,12 @@ a, a:link, a:visited, a:hover, a:active
 }
 
 #topNavigation ul li.navListItem:hover {
-	background-position: -277px -565px;
+	background-position: -277px -566px;
+	
+}
+
+#topNavigation #hrefNA:hover {
+	border-left: 1px solid #193972;
 }
 
 #topNavigation ul li.navListItem:hover a.topNavLink {
@@ -61,10 +65,12 @@ a, a:link, a:visited, a:hover, a:active
 #topNavigation ul li.navListItem:hover .menu {
 	opacity: 1;
 	top: -4px;
-	transition: opacity 0.4s .5s ease, top .4s;
-	-moz-transition: opacity 0.4s .5s ease, top .4s; /* Firefox 4 */
-	-webkit-transition: opacity 0.4s .5s ease, top .4s; /* Safari and Chrome */
-	-o-transition: opacity 0.4s .5s ease, top .4s; /* Opera */
+	
+	
+	-moz-transform: rotate(360deg);
+	-webkit-transform: rotate(360deg);
+	-o-transform: rotate(360deg);
+	transform: rotate(360deg);
 }
 
 #topNavigation ul li#hrefC {
@@ -106,10 +112,11 @@ a, a:link, a:visited, a:hover, a:active
 	-webkit-box-shadow: 5px 5px 5px #afafaf;
 	box-shadow: 5px 5px 5px #afafaf;
     _top: 1px;
-	transition: opacity 0.2s 0 ease;
-	-moz-transition: opacity 0.2s 0 ease; /* Firefox 4 */
-	-webkit-transition: opacity 0.2s 0 ease; /* Safari and Chrome */
-	-o-transition: opacity 0.2s 0 ease; /* Opera */
+	
+	
+	
+	-webkit-transition: -webkit-transform 1s,opacity 0.2s 0 ease;
+
 }
 
 #topNavigation .ieShadow {
