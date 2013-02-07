@@ -61,10 +61,10 @@ a, a:link, a:visited, a:hover, a:active
 #topNavigation ul li.navListItem:hover .menu {
 	opacity: 1;
 	top: -4px;
-	transition: opacity 0.4s .25s ease;
-	-moz-transition: opacity 0.4s .25s ease; /* Firefox 4 */
-	-webkit-transition: opacity 0.4s .25s ease; /* Safari and Chrome */
-	-o-transition: opacity 0.4s .25s ease; /* Opera */
+	transition: opacity 0.4s .5s ease, top .4s;
+	-moz-transition: opacity 0.4s .5s ease, top .4s; /* Firefox 4 */
+	-webkit-transition: opacity 0.4s .5s ease, top .4s; /* Safari and Chrome */
+	-o-transition: opacity 0.4s .5s ease, top .4s; /* Opera */
 }
 
 #topNavigation ul li#hrefC {
