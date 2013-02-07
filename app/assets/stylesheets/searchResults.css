@@ -145,7 +145,7 @@ div.bottomPageNav {border: 1px solid #D8D9DB; border-top:none; box-sizing: borde
 
 .productGridRow {  position:relative; border-bottom: 1px solid #D8D9DB; background-image:url('/assets/searchResultsGridBG.gif'); background-repeat:repeat-y;}
 .productGridRow .productGridItem a {  font-weight:bold; font-size:12px; text-decoration:none;}
-.productGridItem { text-align:center; padding:7px 10px 30px 0px;box-sizing:border-box; -moz-box-sizing:border-box; float: left; }
+.productGridItem { text-align:center; padding:7px 10px 30px 10px;box-sizing:border-box; -moz-box-sizing:border-box; float: left; }
 .productGridItem a:hover { text-decoration:underline }
 .productGridItem .productImg { margin: 0 auto; }
 .productGridItem .productTitle {}
