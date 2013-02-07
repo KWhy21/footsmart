@@ -59,9 +59,12 @@ a, a:link, a:visited, a:hover, a:active
 }
 
 #topNavigation ul li.navListItem:hover .menu {
-	display: block;
 	opacity: 1;
 	top: -4px;
+	transition: opacity 0.4s .25s ease;
+	-moz-transition: opacity 0.4s .25s ease; /* Firefox 4 */
+	-webkit-transition: opacity 0.4s .25s ease; /* Safari and Chrome */
+	-o-transition: opacity 0.4s .25s ease; /* Opera */
 }
 
 #topNavigation ul li#hrefC {
@@ -90,11 +93,12 @@ a, a:link, a:visited, a:hover, a:active
 
 #topNavigation .menu {
 	position: absolute;
-	display: none;	
+	top: -9999px;
+	opacity: 0;
 	padding: 18px 18px;
 	border: 5px #193972 solid;
 	z-index: 20;
-	width: auto;	
+	width: 914px;	
     height: 380px;
     min-height:340px;
 	background: #fff;
@@ -102,6 +106,10 @@ a, a:link, a:visited, a:hover, a:active
 	-webkit-box-shadow: 5px 5px 5px #afafaf;
 	box-shadow: 5px 5px 5px #afafaf;
     _top: 1px;
+	transition: opacity 0.2s 0 ease;
+	-moz-transition: opacity 0.2s 0 ease; /* Firefox 4 */
+	-webkit-transition: opacity 0.2s 0 ease; /* Safari and Chrome */
+	-o-transition: opacity 0.2s 0 ease; /* Opera */
 }
 
 #topNavigation .ieShadow {
@@ -145,8 +153,6 @@ a, a:link, a:visited, a:hover, a:active
 
 #topNavigation .menuCT {	
 	border: 5px #47240b solid;
-    top: -5px;
-    *top: 5px;
 	padding: 0px 0px;
 }
 
