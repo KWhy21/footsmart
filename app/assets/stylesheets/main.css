@@ -71,6 +71,11 @@ a, a:link, a:visited, a:hover, a:active
 	-o-transition: opacity 0.4s .4s ease, top .4s; /* Opera */
 }
 
+#topNavigation ul li#hrefCT:hover .menu {
+	top: 36px;
+	right: 0;
+}
+
 #topNavigation ul li#hrefC {
     border-right: none;
 }   
@@ -79,8 +84,13 @@ a, a:link, a:visited, a:hover, a:active
     border: none;
     margin-top: -5px;
     height: 41px;
+	width: 119px;
     background: url('http://www.footsmart.com/images/common-sprite2.png') no-repeat;
     background-position: -438px -264px;
+}
+
+#topNavigation ul li#hrefCT:hover {
+	background-position: -438px -306px;
 }
 
 #topNavigation #hrefNA {
@@ -198,7 +208,7 @@ a, a:link, a:visited, a:hover, a:active
 	font: bold 11px Arial,sans-serif !important;
 	text-align: left;
     padding: 0 0 0 0;
-    width: 160px;
+    width: 220px;
 }
 
 #topNavigation .menuColCSB {
@@ -448,6 +458,7 @@ a, a:link, a:visited, a:hover, a:active
 	border-bottom: #d2d2d1 solid 1px;
 	padding: 0;
 	margin: 0;
+	line-height: 18px;
 }
 
 /* END TOP NAVIGATION */
