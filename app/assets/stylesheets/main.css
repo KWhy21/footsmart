@@ -78,6 +78,10 @@ a, a:link, a:visited, a:hover, a:active
 
 #topNavigation ul li#hrefC {
     border-right: none;
+}  
+
+#topNavigation ul li#hrefC:hover {
+    background-position: -169px -497px;
 }   
 
 #topNavigation ul li#hrefCT {
@@ -165,9 +169,16 @@ a, a:link, a:visited, a:hover, a:active
     height: 100px;
 }
 
+#topNavigation #hrefC .menu {
+	width: 543px;
+	right: 0;
+}
+
 #topNavigation .menuCT {	
 	border: 5px #47240b solid;
 	padding: 0px 0px;
+	width: 579px;
+	height: 339px;
 }
 
 #topNavigation li a.topNavLink {
@@ -183,16 +194,8 @@ a, a:link, a:visited, a:hover, a:active
 	z-index: 10;	
 }
 
-#topNavigation li a.topNavLink:hover {
-    _font-size: 13px;
-}
-
 #topNavigation li a:hover {
     text-decoration: none;
-}
-
-#topNavigation #hrefCT a.topNavLink {
-	width: 120px;
 }
 
 #topNavigation .menu a {
