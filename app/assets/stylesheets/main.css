@@ -65,12 +65,10 @@ a, a:link, a:visited, a:hover, a:active
 #topNavigation ul li.navListItem:hover .menu {
 	opacity: 1;
 	top: -4px;
-	
-	
-	-moz-transform: rotate(360deg);
-	-webkit-transform: rotate(360deg);
-	-o-transform: rotate(360deg);
-	transform: rotate(360deg);
+	transition: opacity 0.4s .4s ease, top .4s;
+	-moz-transition: opacity 0.4s .4s ease, top .4s; /* Firefox 4 */
+	-webkit-transition: opacity 0.4s .4s ease, top .4s; /* Safari and Chrome */
+	-o-transition: opacity 0.4s .4s ease, top .4s; /* Opera */
 }
 
 #topNavigation ul li#hrefC {
@@ -85,7 +83,7 @@ a, a:link, a:visited, a:hover, a:active
     background-position: -438px -264px;
 }
 
-#topNavigation ul li:first-child, #topNavigation #hrefNA {
+#topNavigation #hrefNA {
 	border-left: 1px solid #d7d5d4;
 }
 
@@ -112,11 +110,10 @@ a, a:link, a:visited, a:hover, a:active
 	-webkit-box-shadow: 5px 5px 5px #afafaf;
 	box-shadow: 5px 5px 5px #afafaf;
     _top: 1px;
-	
-	
-	
-	-webkit-transition: -webkit-transform 1s,opacity 0.2s 0 ease;
-
+	transition: opacity 0.2s 0 ease;
+	-moz-transition: opacity 0.2s 0 ease; /* Firefox 4 */
+	-webkit-transition: opacity 0.2s 0 ease; /* Safari and Chrome */
+	-o-transition: opacity 0.2s 0 ease; /* Opera */
 }
 
 #topNavigation .ieShadow {
@@ -440,6 +437,17 @@ a, a:link, a:visited, a:hover, a:active
 
 #topNavigation .bold {
 	font-weight: bold;
+}
+
+#megaMenu div.cs-Mega h2 {
+	display: block;
+	font-size: 15px;
+	font-weight: bold;
+	color: #1c356e;
+	text-align: left;
+	border-bottom: #d2d2d1 solid 1px;
+	padding: 0;
+	margin: 0;
 }
 
 /* END TOP NAVIGATION */
