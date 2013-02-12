@@ -5,7 +5,6 @@ div.searchResults h1 {display:inline; line-height:31px; margin-right:5px; text-t
 div.container h1 {font-size:1em; line-height:31px font-size:15px; font-weight:bold; text-transform:capitalize; color:#232323 }
 
 /*mainSearchContainer*/
-#mainSearchContainer {	 }
 #searchPagingContainer { border: solid 1px #D8D9DB; box-sizing:border-box/9; }
 
 /*Category Banner--breadcrumb Bar */
@@ -14,14 +13,14 @@ div.container h1 {font-size:1em; line-height:31px font-size:15px; font-weight:bo
 #categoryBanner p a {color:#3c78d2;}
 #categoryBanner p a:hover {text-decoration:none;}
 /*Search Results Bar */
-#searchResultsBanner { display:block; line-height:31px; width:770px;  margin-top:10px; margin-bottom:10px; overflow:hidden  }
-#searchResultsBanner .searchText { float:left; color:#698a39; font-size:21px; font-weight:bold;	padding-left:9px; position:relative; text-transform:uppercase; }
+
+#searchResultsBanner .searchText { float:left; color:#698a39; line-height: 30px; font-size:21px; font-weight:bold;	padding-left:9px; text-transform:uppercase; }
 
 /*#searchResultsBanner .bulletArrow {	background:url(/Images/searchResults-bulletArrow.gif); background-repeat:no-repeat; width:3px; height:5px;display:inline-block; position:absolute; top:13px; left:210px;}
 */#searchResultsBanner .searchError {	color:#a50000;}
 #searchResultsBanner .searchErrorResults { font-size:12px !important; line-height:18px !important;}
 #searchResultsBanner .searchText span.errorHighlight { color:#a50000;}
-#searchResultsBanner .searchResults { float:left; font-weight:bold;	font-size:16px;	line-height:31px; background:url(/Images/searchResults-bulletArrow.gif) no-repeat 11px 12px; padding-left:20px }
+#searchResultsBanner .searchResults { float:left; font-weight:bold;	font-size:16px; background:url('http://www.footsmart.com/Images/searchResults-bulletArrow.gif') no-repeat 11px 12px; padding-left:20px }
 
 /*Quick Search Bar */
 #quickSearchContainer { height:36px; background:url("http://www.footsmart.com/Images/searchResults-quickSearch.gif") no-repeat 0 50%; padding-left:128px; border-bottom: 1px solid #D8D9DB; }
