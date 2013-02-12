@@ -107,30 +107,26 @@ div.bottomPageNav {border: 1px solid #D8D9DB; border-top:none; box-sizing: borde
 #searchBreadCrumb a:hover {text-decoration:none; cursor: hand; }
 
 #guidedNavigation { border-left: solid 1px #D8D9DB; border-right: solid 1px #D8D9DB; border-bottom: solid 1px #D8D9DB; margin-bottom:10px}
-#guidedNavigation a {  text-decoration:none; padding: 0px 0px; color: #074097; font-size: 14px; font-weight: bold;}
+#guidedNavigation a {  text-decoration:none; font-weight: bold;}
 #guidedNavigation a:hover { text-decoration:underline; cursor: hand; }
-#guidedNavigation li a { margin: 0px; display: block; color:#3f3f3f; padding-top: 5px; padding-left:7px;_height:15px;  } /*You can not apply height here, will not allow refinement values to wrap to second line*/
+#guidedNavigation li a { display: block; padding-top: 5px; padding-left:7px;_height:15px;  } /*You can not apply height here, will not allow refinement values to wrap to second line*/
 
 #guidedNavigation li a:hover {background-color:none; text-decoration:none;}
-#guidedNavigation li { list-style: none; white-space: normal; width: 191px; }
-#guidedNavigation ul ul.subnavlist { width:100%; margin: 0 0 5px 0;   }
+#guidedNavigation ul ul.subnavlist {margin: 0 0 5px 0;   }
 
 #guidedNavigation ul ul a {background-color:white; font-weight:normal; border-top:none; color:#050505; }
 #guidedNavigation ul ul a:hover { background-color:#eeeff1; text-decoration:none; }
-#guidedNavigation ul ul li a {background: none; padding: 3px 0 3px 7px; font-size:12px}
+#guidedNavigation ul ul li a {padding: 3px 0 3px 7px; font-size:12px}
 #guidedNavigation li.firstEntry a{ padding-top:6px;  }
 #guidedNavigation li.lastEntry a{ padding-bottom:6px;  }
 #guidedNavigation ul ul.expanded {position:absolute; top:0px; width:100%;}
-
-#guidedNavigation ul li ul li {padding: 0; margin:0 }
 
 #guidedNavigation .more a {padding-top: 5px;}
 #guidedNavigation .more, #guidedNavigation .less {padding-left:20px; }
 #guidedNavigation .more a,  #guidedNavigation .less a  { color: #074097; background-image:none; height: 19px; font-size: 12px;	font-weight: bold;	padding-left: 0px;	margin-right:5px; margin-top:5px; text-align: left;  cursor: pointer; }
 #guidedNavigation .more a:hover, #guidedNavigation .less a:hover { text-decoration:underline; background-color: #fff; }
 
-#guidedNavigation ul#navlist { margin:0;}
-#guidedNavigation ul#navlist li a.dimension { background:url('/assets/searchResultsCatBG.png') no-repeat; height:29px; width: 191px; padding-top:5px;}
+#guidedNavigation ul#navlist li a.dimension { background:url('/assets/searchResultsCatBG.png') no-repeat; height:29px;}
 #guidedNavigation ul#navlist li.collapsed div { display:none; }
 #guidedNavigation li.collapsed {background: url("http://www.footsmart.com/Images/searchResult-seeMoreArrow.png") no-repeat 100% 50%;  }
 
