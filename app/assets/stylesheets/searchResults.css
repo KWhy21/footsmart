@@ -32,7 +32,7 @@ div.container h1 {font-size:1em; line-height:31px font-size:15px; font-weight:bo
 /*Sort By Bar */
 #searchPagingContainer .sortbyBar {	 border-bottom: 1px solid #D8D9DB; border-top: 3px solid #698a39; height: 34px; background-color:#fff; }
 #searchPagingContainer .sortBar {list-style-type:none;  padding-left: 8px; font:normal 12px/30px Arial,san-serif;}
-#searchPagingContainer .sortBar li {float:left; padding: 0 5px; list-style-image:none; text-decoration:none; background:url('http://www.footsmart.com/Images/searchResult-Sortby-divider.png') no-repeat 0% 50%; }
+#searchPagingContainer .sortBar li {float:left; padding: 0 5px; margin: 7px 0 0 11px; list-style-image:none; text-decoration:none; background:url('http://www.footsmart.com/Images/searchResult-Sortby-divider.png') no-repeat 0% 50%; }
 #searchPagingContainer .sortBar li a {color: #050505; text-decoration:none; /*padding: 0.09em 1em 0.09em 1.3em;*/ padding: 7px 4px 8px 8px; }
 
 #searchPagingContainer .sortBar li a:hover{text-decoration:underline;}
