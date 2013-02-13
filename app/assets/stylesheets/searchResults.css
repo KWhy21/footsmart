@@ -31,12 +31,12 @@ div.container h1 {font-size:1em; line-height:31px font-size:15px; font-weight:bo
 /*Sort By Bar */
 #searchPagingContainer .sortbyBar {	 border-bottom: 1px solid #D8D9DB; border-top: 3px solid #698a39; height: 34px; background-color:#fff; }
 #searchPagingContainer .sortBar {  padding-left: 8px; font:normal 12px/30px Arial,sans-serif;}
-#searchPagingContainer .sortBar li {float:left; padding: 0 11px; margin: 7px 0 0 0; list-style-image:none; text-decoration:none; background:url('http://www.footsmart.com/Images/searchResult-Sortby-divider.png') no-repeat 0% 50%; }
-#searchPagingContainer .sortBar li a {color: #050505; text-decoration:none; /*padding: 0.09em 1em 0.09em 1.3em;*/ padding: 7px 4px 8px 8px; }
+#searchPagingContainer .sortBar li.sortBarItem {float:left; padding: 0 11px; margin: 7px 0 0 0; list-style-image:none; text-decoration:none; background:url('http://www.footsmart.com/Images/searchResult-Sortby-divider.png') no-repeat 0% 50%; }
+#searchPagingContainer .sortBar li.sortBarItem a {color: #050505; text-decoration:none; /*padding: 0.09em 1em 0.09em 1.3em;*/ padding: 7px 4px 8px 8px; }
 
-#searchPagingContainer .sortBar li a:hover{text-decoration:underline;}
+#searchPagingContainer .sortBar li.sortBarItem a:hover{text-decoration:underline;}
 #searchPagingContainer .sortBar a.currentPage,  #searchPagingContainer .sortBar a.currentPage:hover{ text-decoration: none; font-weight:bold; cursor:default}
-#searchPagingContainer li.firstSortBy { color:#074097; font-weight:bold; background-image:none; text-transform:uppercase}
+#searchPagingContainer .sortBar li.firstSortBy { color:#074097; font-weight:bold; background-image:none; text-transform:uppercase}
 
 #searchPagingContainer li.firstLink { background-image:none;}
 #searchPagingContainer li.lastLink { }
@@ -133,9 +133,9 @@ div.bottomPageNav {border: 1px solid #D8D9DB; border-top:none; box-sizing: borde
 #guidedNavigation .dimValueLink { text-decoration: none; color: #2C2C2C; }
 
 .productGridRow {  position:relative; border-bottom: 1px solid #D8D9DB; background-image:url('/assets/searchResultsGridBG.gif'); background-repeat:repeat-y;}
-.productGridRow .productGridItem a {  font-weight:bold; font-size:12px; text-decoration:none; line-height: 1.5em;}
+.productGridRow .productGridItem a.productLink {  font-weight:bold; font-size:12px; text-decoration:none; line-height: 1.5em;}
 .productGridItem { text-align:center; padding:7px 10px 30px 10px;box-sizing:border-box; -moz-box-sizing:border-box; }
-.productGridItem a:hover { text-decoration:underline }
+.productGridItem a.productLink:hover { text-decoration:underline }
 .productGridItem .productPrice {line-height: 1.5em;}
 .productGridItem .containerRating1 {position:absolute; bottom:10px; left:0%; }
 .productGridItem .containerRating2 {position:absolute; bottom:10px; left:25%;  }
