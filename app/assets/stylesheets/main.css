@@ -12,7 +12,7 @@ a, a:link, a:visited, a:hover, a:active
 .m10t  { margin-top: 10px; }
 .m10b { margin-bottom: 10px; }
 .alt { display: none; }
-
+.bold { font-weight: bold; }
 
 /*
  * Site Navigation
@@ -569,6 +569,9 @@ background: url('http://www.footsmart.com/images/common-sprite2.png') no-repeat;
 display: block;
 }
 
+
+/* Stars Styles */
+
 div.starsDiv
 {
 	position: relative;
@@ -643,6 +646,26 @@ div.starsDiv div.backgroundStars440 { width:78px; }
 div.starsDiv div.backgroundStars460 { width:81px; }
 div.starsDiv div.backgroundStars480 { width:84px; }
 div.starsDiv div.backgroundStars5, div.starsDiv div.backgroundStars500  { width:100px; }
+
+
+
+ul.ratingStars,
+.ratingBoldText,
+.ratingBoldTextBlack,
+.ratingBoldTextBlackSmall,
+.ratingBoldTextGray,
+.ratingBoldTextBlue,
+.ratingBoldTextBlueSmall
+{
+	text-align:left;
+	font-size:12px;
+	font-weight:bold;
+	color:black;
+}
+
+
+
+/* Footer Styles */
 
 .footer-fs, .footer-ct {
 	background: url('/assets/footerSignupBg.png') no-repeat;

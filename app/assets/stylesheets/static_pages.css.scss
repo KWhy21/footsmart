@@ -2,5 +2,220 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
+// PDP Page Styles
 
+div#breadcrumbs {
+	margin: 0 0 5px 0;
+	font-weight: bold;
+	a#backtoBrowsing {
+		font-size: 12px;
+		text-decoration: none;
+	}
+}
    
+div#productImageViewer {
+	border: solid 1px #CDCDCD;
+	overflow: hidden;
+	position: relative;
+}
+
+div#multiViewArea, div#alternateViewArea {
+	border-top: 1px solid #CDCDCD;
+}
+
+div#multiView, ul#alternateProductImages {
+	padding: 5px 4px;
+	display: inline-block;
+}
+
+div#multiView img {
+	width: 67px;
+	height: 69px;
+	padding: 1px;
+	background-color: #CDCDCD;
+	float: left;
+	display: block;
+	cursor: pointer;
+	border: solid 2px white;
+}
+
+div#multiView img:hover, div#multiView img.selected, ul#alternateProductImages img:hover, ul#alternateProductImages img.selected {
+	background-color: #2E4C80;
+}
+
+div#overallRatingContainer {
+	border: solid 1px #F1F1F1;
+	padding: 0px;
+}
+
+div#overallRatingContainer .reviewShadedBackgroundTop, div#overallRatingContainerEmpty .reviewShadedBackgroundTop {
+	background-image: url('http://www.footsmart.com/images/gradient_bluetop.gif');
+	background-repeat: repeat-x;
+	border-top: solid 1px #E2ECF8;
+	padding-top: 10px;
+}
+
+div.reviewPadding {
+	padding: 0 10px;
+	.ratingStarsImage, .ratingTitle, .ratingAvg {
+		line-height: 16px;
+	}
+	.ratingStarsImage, .ratingTitle {
+		padding-right: 60px;
+	}
+}
+
+#overallRatingModule div.starsDiv {
+	margin-left: 0;
+	margin-top: 0;
+}
+
+ul.ratingStars li {
+	padding-right: 10px;
+	float: left;
+}
+
+li.ratingTitle {
+	font-size: 16px;
+	color: #414551;
+	font-weight: bold;
+}
+
+div.percentRecommendedLarge {
+	font-weight: normal;
+	color: #000;
+	padding-top: 12px;
+	white-space: nowrap;
+}
+
+span.percentRecommendedRed {
+	font-size: 14px;
+	color: #AB2B20;
+	font-weight: bold;
+}
+
+div.reviewSeparationFade {
+	background: url('http://www.footsmart.com/images/separator_1.gif') center no-repeat;
+	width: 100%;
+	height: 10px;
+	padding-top: 5px;
+	padding-bottom: 10px;
+}
+
+div.overallRatingModule_overallRatingSliders {
+	background-color: #f6f6f6;
+}
+
+.ratingBoldTextGray {
+	font-size: 14px;
+	color: #414551;
+	padding-bottom: 7px;
+	font-weight: bold;
+}
+
+.ratingBoldTextBlack {
+	font-size: 14px;
+	color: black;
+	font-weight: bold;
+}
+
+div.chartLine {
+	background: url('http://www.footsmart.com/images/chartline.gif') 0px 5px repeat-x;
+	height: 17px;
+}
+
+div.overallRatingModule_overallRatingSliders div.slider, div.reviewSlider div.sliderSmall {
+	font-weight: bold;
+	color: #414551;
+	padding-top: 5px;
+	padding-bottom: 7px;
+	border-bottom: solid 1px #ffffff;
+}
+
+div.overallRatingModule_overallRatingSliders div.slider, div.reviewSlider div.sliderSmall {
+	font-size: 10px;
+	font-weight: bold;
+	color: #414551;
+}
+
+div.overallRatingModule_overallRatingSliders div.slider {
+	font-size: 11px;
+}
+
+div.sliderMinimum {
+	float: left;
+}
+
+div.sliderMaximum {
+	float: right;
+	margin-right: 5px;
+	text-align: right;
+}
+
+div#overallRatingContainer .reviewShadedBackgroundBottom {
+	margin-top: 10px;
+	width: 100%;
+}
+
+div#overallRatingContainer ul#overallRatingFooter li {
+	padding-left: 10px;
+	float: left;
+}
+
+
+
+div#ProductPurchaseDetails {
+	border-top: solid 7px #f1f1f1;
+	border-bottom: solid 2px #f1f1f1;
+	padding: 5px 10px;
+}
+
+div#ProductPurchaseDetails div#TitleArea div#titleText {
+	padding-right: 5px;
+}
+
+div#ProductPurchaseDetails div#TitleArea h1#titleTextHeader {
+	font-size: 16px;
+	font-weight: bold;
+	display: inline;
+	margin-right: 5px;
+	line-height: 1;
+}
+
+div#ProductPurchaseDetails td#pricing span.strikeoutprice, div#ProductPurchaseDetails td#pricing span.price {
+	font-size: 16px;
+}
+
+div#ProductPurchaseDetails div#TitleArea {
+	font-weight: bold;
+}
+div#ProductPurchaseDetails td#pricing {
+	text-align: right;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

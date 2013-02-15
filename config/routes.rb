@@ -1,6 +1,8 @@
 Footsmart::Application.routes.draw do
   root to: "static_pages#home"
 
+  match '/pdp',    to: 'static_pages#pdp'
+  
   # The priority is based upon order of creation:
   # first created -> highest priority.
 

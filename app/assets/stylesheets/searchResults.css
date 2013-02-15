@@ -121,7 +121,7 @@ div.bottomPageNav {border: 1px solid #D8D9DB; border-top:none; box-sizing: borde
 #guidedNavigation ul.subnavlist .more a.subNavLink,  #guidedNavigation ul.subnavlist .less a.subNavLink  { color: #074097; background-image:none; height: 19px; font-size: 12px;	font-weight: bold;	padding-left: 0px;	margin-right:5px; margin-top:5px; text-align: left;  cursor: pointer; }
 #guidedNavigation ul.subnavlist .more a.subNavLink:hover, #guidedNavigation ul.subnavlist .less a.subNavLink:hover { text-decoration:underline; background-color: #fff; }
 
-#guidedNavigation ul#navlist li a.dimension { background:url('/assets/searchResultsCatBG.png') no-repeat; height:29px; font-weight: bold; color: #3f3f3f;}
+#guidedNavigation ul#navlist li a.dimension { font-size: 14px; background:url('/assets/searchResultsCatBG.png') no-repeat; height:29px; font-weight: bold; color: #3f3f3f;}
 #guidedNavigation ul#navlist li.collapsed div.collapsedDiv { display:none; }
 
 #guidedNavigation ul#navlist li.collapsed a.dimension {cursor: pointer; background:url('/assets/searchResultsCatCollapsedBG.png')  repeat-x; height:auto; padding-bottom:3px}
