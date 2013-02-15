@@ -663,7 +663,10 @@ ul.ratingStars,
 	color:black;
 }
 
-
+ul.ratingStars li {
+	padding-right: 10px;
+	float: left;
+}
 
 /* Footer Styles */
 

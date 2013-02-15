@@ -23,9 +23,14 @@ div#multiViewArea, div#alternateViewArea {
 	border-top: 1px solid #CDCDCD;
 }
 
-div#multiView, ul#alternateProductImages {
+ul#alternateProductImages {
 	padding: 5px 4px;
 	display: inline-block;
+}
+
+div#multiView {
+	padding: 5px 4px;
+	display: block;
 }
 
 div#multiView img {
@@ -193,8 +198,18 @@ div#ProductPurchaseDetails td#pricing {
 	text-align: right;
 }
 
+div#ProductPurchaseDetails div#TitleArea ul.ratingStars {
+	margin: 3px 0px;
+}
 
+div#ProductPurchaseDetails  div.starsDiv {
+	margin-left: 0;
+	margin-top: 0;
+}
 
+div#ProductPurchaseDetails div#TitleArea a {
+	font-weight: normal;
+}
 
 
 
