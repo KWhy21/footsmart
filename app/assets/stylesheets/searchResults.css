@@ -5,7 +5,7 @@ div.searchResults h1 {display:inline; line-height:31px; margin-right:5px; text-t
 div.container h1 {font-size:1em; line-height:31px font-size:15px; font-weight:bold; text-transform:capitalize; color:#232323 }
 
 /*mainSearchContainer*/
-#searchPagingContainer { border: solid 1px #D8D9DB; box-sizing:border-box/9; }
+#searchPagingContainer { float: left; width: 738px; border: solid 1px #D8D9DB; box-sizing:border-box/9; }
 
 /*Category Banner--breadcrumb Bar */
 #categoryBanner { display:none; background:url("http://www.footsmart.com/Images/searchResults-banner-category-breadcrumb.png"); height:54px; width:770px;  margin-bottom:7px;  }
@@ -31,7 +31,7 @@ div.container h1 {font-size:1em; line-height:31px font-size:15px; font-weight:bo
 /*Sort By Bar */
 #searchPagingContainer .sortbyBar {	 border-bottom: 1px solid #D8D9DB; border-top: 3px solid #698a39; height: 34px; background-color:#fff; }
 #searchPagingContainer .sortBar {  padding-left: 8px; font:normal 12px/30px Arial,sans-serif;}
-#searchPagingContainer .sortBar li.sortBarItem {float:left; padding: 0 11px; margin: 7px 0 0 0; list-style-image:none; text-decoration:none; background:url('http://www.footsmart.com/Images/searchResult-Sortby-divider.png') no-repeat 0% 50%; }
+#searchPagingContainer .sortBar li.sortBarItem {float:left; padding: 0 11px; margin: 3px 0 0 0; list-style-image:none; text-decoration:none; background:url('http://www.footsmart.com/Images/searchResult-Sortby-divider.png') no-repeat 0% 50%; }
 #searchPagingContainer .sortBar li.sortBarItem a {color: #050505; text-decoration:none; /*padding: 0.09em 1em 0.09em 1.3em;*/ padding: 7px 4px 8px 8px; }
 
 #searchPagingContainer .sortBar li.sortBarItem a:hover{text-decoration:underline;}
@@ -43,10 +43,10 @@ div.container h1 {font-size:1em; line-height:31px font-size:15px; font-weight:bo
 #searchPagingContainer li.last a {padding: .2em 1.2em;; border-right:none;}
 
 /*Products Per Page */
-.productsPageBar { background: url('http://www.footsmart.com/Images/searchResults-sortby-shadow.gif') repeat-x; padding-top: 5px; overflow:hidden; } /*height: 29px;*/
-.productsPageBar  p{line-height: 30px; font-weight: bold; margin: 0 10px 0 0; float:right; }
+.productsPageBar { background: url('http://www.footsmart.com/Images/searchResults-sortby-shadow.gif') repeat-x; padding-top: 5px;  } /*height: 29px;*/
+.productsPageBar p {line-height: 30px; font-weight: bold; margin: 0 10px 0 0; float:right; }
 
-.productsPerPage {float:left; font:bold 12px/30px Arial,san-serif;  color:#074097; margin: 6px 0 0 10px;}
+.productsPerPage {float:left; font:bold 12px/30px Arial,san-serif;  color:#074097; margin: 0 0 0 10px;}
 .productsPerPage li {float:left; list-style-image:none;  }
 .productsPerPage li a{text-decoration:none; padding: .2em .5em; color:#050505; font-weight:normal}
 .productsPerPage li a:hover {text-decoration:underline;}
@@ -83,7 +83,7 @@ div.container h1 {font-size:1em; line-height:31px font-size:15px; font-weight:bo
 .pageNavigation .paginationEllipsis {color:#999; margin-right:4px; position: relative; top: 5px;}
 div.bottomPageNav {border: 1px solid #D8D9DB; border-top:none; box-sizing: border-box; -moz-box-sizing:border-box;}
 
-.pageNavigation {margin-right:15px; margin-top:3px; float:right;}
+.pageNavigation {margin-right:15px; margin-top:6px; float:right;}
 .pageNavigation  a.currentPageNumber, .productsPageBar li.currentSelection a{ text-decoration: none;	font-weight:bold; cursor:default}
 
 /*Endeca Sidebar Bread Box*/
