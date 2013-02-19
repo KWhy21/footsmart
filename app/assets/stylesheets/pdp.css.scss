@@ -88,8 +88,154 @@ div#ProductPurchaseDetails ul.visualizationSelectors li.available, div#productIm
 	margin: 0 5px;
 }
 
-div#ProductPurchaseDetails ul.sizeVisualization li div, div#ProductPurchaseDetails ul.widthVisualization li div {
-	
+
+div#ProductPurchaseDetails ul.colorVisualization li.available, div#productImageViewer ul.colorVisualization li.available {
+	padding: 1px;
 }
 
+div#ProductPurchaseDetails #sizeDimension1 .title {
+	width: 260px;
+}
+
+div#ProductPurchaseDetails .title {
+	line-height: 20px;
+	position: relative;
+	margin: 0;
+}
+
+div#ProductPurchaseDetails label.componentLabel {
+	font-weight: bold;
+	margin-right: 10px;
+	font-size: 12px;
+}
+
+div#ProductPurchaseDetails div#PSWC div#sizeChart {
+	position: absolute;
+	top: 0;
+	right: 0;
+	padding: 2px 0 0 5px;
+	background-color: #FFF;
+}
+
+div#ProductPurchaseDetails ul.colorVisualization li span.OneColor, div#productImageViewer ul.colorVisualization li span.OneColor {
+	float: left;
+	height: 24px;
+	width: 24px;
+}
+
+div#ProductPurchaseDetails div.addToCart {
+	padding: 4px 0;
+}
+
+div#bulletPointsSection {
+	margin-top: 10px;
+	background: #EEE;
+	padding: 10px;
+}
+
+div#bulletPointsSection ul.bulletPoints {
+	margin: 0 0 0 20px;
+	list-style-type: disc;
+}
+
+div#bulletPointsSection label.bulletPointsLabel {
+	font-size: 14px;
+	display: block;
+	margin-bottom: 5px;
+	color: #414551;
+}
+
+div#sharebox {
+	background: url('http://www.footsmart.com/images/share-gradient.jpg') repeat-x;
+	padding: 11px 5px;
+	margin-top: 10px;
+}
+
+div#sharebox span.label {
+	font-weight: bold;
+}
+
+div#sharebox span {
+	line-height: 20px;
+	margin-right: 10px;
+	float: left;
+}
+
+div#sharebox a.emailLink:hover {
+	background-position: 0 -20px;
+}
+
+div#sharebox a.emailLink {
+	background: url('http://www.footsmart.com/images/btn-email-sprite.jpg') no-repeat;
+	display: block;
+	width: 69px;
+	height: 20px;
+}
+
+div.tabs ul.tabHeaders {
+	background: url("http://www.footsmart.com/images/tabs/tabsborder.jpg") repeat-x scroll right top transparent;
+	border-left: solid 1px #e8e8e8;
+}
+  
+div.tabs ul.tabHeaders li.active {
+	background-image: url("http://www.footsmart.com/images/tabs/left_on.jpg");
+}
+
+div.tabs ul.tabHeaders li {
+	background: url("http://www.footsmart.com/images/tabs/left.jpg") no-repeat scroll left top transparent;
+	float: left;
+	height: 51px;
+	margin: 0;
+	padding: 0 0 0 15px;
+	list-style: none outside none;
+}
+
+div.tabs ul.tabHeaders li.active a {
+	background-image: url("http://www.footsmart.com/images/tabs/right_on.jpg");
+	color: #333333;
+	padding-bottom: 5px;
+}
+
+div.tabs ul.tabHeaders li a {
+	background: url("http://www.footsmart.com/images/tabs/right.jpg") no-repeat scroll center top transparent;
+	color: #253187;
+	display: block;
+	font-weight: bold;
+	height: 62px;
+	padding: 10px 30px 4px 15px;
+	text-decoration: none;
+	outline: none;
+}
+
+div.tabs div.descriptionTabContent {
+		padding-bottom: 10px;
+}
+
+div.tabs div.tabsContent {
+	clear: both;
+	padding: 10px;
+	border: solid 1px #e8e8e8;
+	border-top: none;
+	line-height: 1.4em
+}
+
+div.tabs ul.tabHeaders li.lastTab {
+	background: url("http://www.footsmart.com/images/tabs/tabsborderRight.gif") no-repeat scroll right top transparent;
+	padding: 0px 0px 0px 1px;
+	height: 37px;
+}
+
+div.tabs div.tabsContent div.more {
+	text-align: right;
+	margin: 10px 10px 0 0;
+}
+
+div.more a, a.more {
+	color: #253187;
+	font-weight: bold;
+	padding-right: 20px;
+	background: url("http://www.footsmart.com/images/search/ArrowDown_whitebkg.jpg") no-repeat scroll right center transparent;
+	cursor: pointer;
+	text-decoration: none;
+}
 

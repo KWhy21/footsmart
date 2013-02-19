@@ -9,10 +9,18 @@ a, a:link, a:visited, a:hover, a:active
     font-family:Arial, Helvetica, Sans-Serif;
 }
 
+label {
+font-weight: bold;
+margin-right: 10px;
+}
+
 .m10t  { margin-top: 10px; }
 .m10b { margin-bottom: 10px; }
 .alt { display: none; }
 .bold { font-weight: bold; }
+
+.left { float: left; }
+.right { float: right; }
 
 /*
  * Site Navigation
